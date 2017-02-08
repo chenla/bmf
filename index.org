@@ -59,7 +59,31 @@ We need a selector mechanism in orgmode for layers to work
 
 can we use org-id for #+insert  ?
 
-Map identities to virtual machine names, and roles to user accounts.
+* Identities & Roles
+:PROPERTIES:
+:ID:       7396a2ae-5139-4e84-bedc-fab4bc1b8e5c
+:END:
+
+An identity manager could map identities to a virtual, virtual
+machine and roles to user accounts on that machine.  In this
+way we get all the Unixy goodness that comes with the user
+model -- including user home directories, file permissions,
+user groups, password, ssh keys etc.
+
+Then email and other accounts are tied to different user
+accounts, not to the identity.
+
+So ssh'ing into:
+
+   /ssh:deerpig@HEW1-0756.bxid.org:~/ 
+
+with the proper key-pair would open up that /role/ that would
+have it's own storage, email/messaging address and bramble.
+
+
+  bxid:HEW1-0756  maps  to id:1dc19191-6072-4799-8017-4319a2236101
+
+
 
 
 
