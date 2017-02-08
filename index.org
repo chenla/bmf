@@ -48,6 +48,19 @@ The latest version of this document is: src_sh[:results value]{git describe --ab
 
 * Introduction
 
+  - tspaces :: topicspaces
+  - dspaces :: doc spaces
+
+
+Wikipedia title naming conventions
+
+
+We need a selector mechanism in orgmode for layers to work
+
+can we use org-id for #+insert  ?
+
+Map identities to virtual machine names, and roles to user accounts.
+
 
 
 * Properties & topicspaces
