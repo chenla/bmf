@@ -84,6 +84,44 @@ have it's own storage, email/messaging address and bramble.
   bxid:HEW1-0756  maps  to id:1dc19191-6072-4799-8017-4319a2236101
 
 
+  bxid's have a a TTL when issued that renew themselves
+  based on useage.  
+
+  If it's used once and then not used for 90 days it is
+  canceled and the number goes back into the available pool.
+
+  If it is used on a regular basis for 90 days it will
+  become permanent for one inactive year.
+
+  If it is used on a regular basis for one year, it stays
+  active for 10 years.
+
+  If it is used on a regular basis for ten years, it will
+  stay active for 100 years.
+
+Use the same business model as pinboard.in -- one time fee
+for life, based on number of users that have signed up.
+
+Since this is supposed to be a personal identity id number,
+the number of bxid numbers generated per year must be capped.
+
+Establishing an identity is something that takes time -- new
+identities are untrusted by default, but over time, use
+patterns and multiple factor authentifications over time
+will reinforce an identity until it is something that can be
+used to build credit.
+
+Honeypots will be built in -- if you log in and want to see
+too much at one time -- you get redirected to a honeypot,
+and the honeypot will lock out any other access until the
+user resets the account with new keys etc.
+
+Content can be marked public | private | dark  it's like the
+Taiwan National Museum, anyone can see anything in the
+collection, but you have to ask for it, and there is no
+public index of what is in the collection.  No one can get a
+dump of all dark content, and there will be a fail2ban
+mechanism, as well as an auto destruct feature
 
 
 
