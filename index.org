@@ -58,7 +58,7 @@ The latest version of this document is: src_sh[:results value]{git describe --ab
 :CREATED:
 :BT:            top:English_Philosopers
 :TYPE:          typ:Person
-:OWNER:         identity/role
+:OWNER:         identity@role
 :END:
 
 
@@ -69,6 +69,24 @@ The latest version of this document is: src_sh[:results value]{git describe --ab
 Entities are record types -- with a schema for what metadata
 must, should and can be included and rulesets for processing
 records.
+
+** Relationships
+
+
+- T  :: Top
+- B  :: Broader
+- N  :: Narrower
+- R  :: Related
+- U  :: Used For
+- *P :: Partitive
+- *I :: Instantive
+- P  :: Primary Term
+
+- UP   ::
+- DOWN :: 
+- PREV :: 
+- NEXT ::
+
 
 ** Initial Topicspaces
 
