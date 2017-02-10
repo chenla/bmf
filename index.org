@@ -268,6 +268,51 @@ memorization and practice which is not only a measure of the
 level of detail but a measure of mastery -- which is handled
 by ROC attribute.
 
+** Point of View (POV)
+
+POV is simular to LOD because it establishes the distance of
+an observer to what is being defined, but where LOD is a
+measure of how much detail can be included or observed, POV
+includes the orientation of an observer relative to what is
+being defined.
+
+A POV can be thought of as a filter that determines what can
+be obseved.  For example, if an observer is looking at 
+
+
+** Rate of Change (ROC)
+
+Pacing layers -- the time frame that something is observed
+in determines what is seen -- a human watching a humming
+bird in flight can only see the bird's wings as a blur.  But
+if a high frame rate video of the humming bird is taken that
+is faster than the 24fps that the human eye can discern,
+then you can clearly see the wings and how they move in
+flight.
+
+From the ROC of a tree, the humming bird is all but
+invisible, with only the evidence that someone the nector in
+it's flowers (if it's a flowering tree) has been
+mysteriously removed and it's pollen spread.
+
+From the ROC of our sun, all life on earth is only apparent
+as the greening of the third large rock that orbits it over
+the last several billion years.
+
+Like in an image, ROC is based largely on the base unit of
+observable time.  For a humming bird in flight that unit
+will be in thousands of a second, for a tree, years and
+decades, for the sun, hundreds of millions of years.
+
+As in LOD, there are a wide number of scales that can be
+used to define ROC, from Stewart Brand's Pacing Layers for
+Civilizations, and his Shearing layers for the life of
+buildings.  There are also scales of proficiency in a skill
+-- for someone learning to play an instrument, or to touch
+type, or speak a language or a martial art, the speed and
+accuracy that one can perform at, without effort is a
+spectrum from beginner to master
+
 ** Scheme Requirements
 
 All values for LOD, POV and ROC MUST be given as a value
