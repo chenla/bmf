@@ -253,8 +253,29 @@ levels.
 At some point you start running into the /Map and Territory/
 problem. 
 
+-----
 
-Meaning as Internal Interpretation
+** Meaning as Internal Interpretation
+
+Preserving context is a useful thing to do -- but how does
+that relate to meaning?  Is meaning something that can be
+objectively defined and recorded?  Or is it, like knowledge,
+a constantly shifting thing that can no more captured than
+smoke in your hand.
+
+Meaning is a slippery word at best.  There are various types
+of meaning defined in linguistics, in semiotics, in
+philosophy there is existential meaning etc.
+
+It's useful, for general purposes, to define meaning as a
+kind of internal mental interpretation relative to the state
+that the mind is in at the moment of interpretation.
+Determining meaning is a kind of decsion -- taking in what
+is happening now, and mixing it together with what is
+remembered and what has been learned before.  Slosh it all
+together and shake well and you get a meaning, or at least a
+snapshot of what that meaning was for the observer at the
+moment of interpretation.
 
 #+begin_quote
 The sense that sentient creatures have that the various
@@ -270,6 +291,24 @@ interpretations that people have of the world.
 
 
 
+So let's move meaning and knowledge out of our model and
+use the terms to refer to particular states of collections
+of information that have gone through iterative processes of
+building cognitive models of the world.
+
+What we will focus on in preserving context.  We have
+already discussed preserving references but how we do this
+is no as straight forward as it might seem at first.
+
+We will call here references that are matched with a pointer
+to the source of the reference or a definition or record
+describing them /links/.  Links can be 
+
+
+
+** The Scope Model
+
+Clearly meaning is not what we are striving for
 
 
 The scope model is central to BMF.  In BMF, in theory, every
@@ -279,6 +318,8 @@ has to be defined at top levels of trees.
 
 Scope is defined through three attributes: /Level of Detail/
 (LOD) Point of View (POV) and Rate of Change (ROC).
+
+
 
 ** Level of Detail (LOD)
 
