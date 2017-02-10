@@ -268,17 +268,46 @@ memorization and practice which is not only a measure of the
 level of detail but a measure of mastery -- which is handled
 by ROC attribute.
 
+LOD establishes the distance of an observer to what is being
+defined.  LOD is a measure of how much detail can be
+included or observed, but also includes the orientation of
+an observer relative to what is being defined in Cartesian
+or Hilbert space which determines the level of detail that
+can be observed.  This type of orientation is traditionally 
+thought to be part of the Point of View (POV) of the
+observer but is better suited to LOd than POV as we will see
+in the next section.
+
 ** Point of View (POV)
 
-POV is simular to LOD because it establishes the distance of
-an observer to what is being defined, but where LOD is a
-measure of how much detail can be included or observed, POV
-includes the orientation of an observer relative to what is
-being defined.
+LOD can be thought of as a subset of POV, but not all POVs
+are a meaure of orientation, distance and observed detail.
 
 A POV can be thought of as a filter that determines what can
-be obseved.  For example, if an observer is looking at 
+be obseved.  In other words, the POV are the blinders that
+determine what is observed.  For example a dog can smell and
+hear things that a human can not.  Many animals such as
+birds are sensitive to electromagnetic fields that allow
+them to navigate in ways that are outside of human
+perception.  Conversely, many adult humans (of normal
+intelligence who are not suffering from self-inflicted
+cognitive dissonance) have cognitive, reasoning and
+deductive skills that are orders of magnitude greater than
+many of our fellow mammals.  A dog that has wound it's lead
+around the tree that it has been tied to can not understand
+that by reversing the path that got it intangled in the
+first place, will get it out of its present predicament.
 
+POV defines the specific limitations of an observer's
+ability to observe relative to what is being defined.
+
+These limitations can include:
+
+  - the physical senses :: visual, audio, smell
+  - cognition  :: the ability to process information
+  - cultural   :: language, social norms, shared memories
+  - experience :: compare things observed to simular thing
+                  observed previously.
 
 ** Rate of Change (ROC)
 
