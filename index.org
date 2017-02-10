@@ -203,6 +203,75 @@ records.
   - gloss   ::
 * Scope
 
+One of BMF's primary goals is to capture the surrounding
+context of everything in the system.  The primary use case
+is in preserving the intended meaning of something (words,
+images, sounds etc) when it was created as well as that
+meaning changes along with its original context at different
+times in history.
+
+For example, in the American Declaration of Independence
+written in 17... the term "pursuit of happiness" was
+interpreted very differently from the late 20th and early
+21st centuries in what would become the United States of
+America.  Happiness in the 16th century was closer to the
+Epicurian concept of leading a /purposeful/ and productive
+life, rather than anything to do with the modern concept of
+contentment or bliss.
+
+The other problem is that many references to people, events,
+places, and other documents are lost over time.  This can
+happen very quickly.  A legal dispute involving
+correspondence over a twenty year old internal project at a
+company that has long been out of business may reference
+people, reports and events (eg. phone calls, meetings etc)
+that there is no longer any record of outside of someone's
+distant memory of events.  Human memory is notoriously
+inacurrate and recollection of events changes in the mind
+over time.  We remember the past relative to and interpreted
+by our present context, not as it actually happened or even
+as we experienced it at the time.
+
+Preserving references made within things that are stored is
+relatively straight forward, but quickly becomes resource
+intensive.  It also poses the problem of where do you stop?
+If a letter preserves or records all of the people, places
+and events in a document (this is called a /hop/ or a level
+of separation) do you then save all of the references made
+in in the referring source?  How far does one go?  Even
+following references three levels deep borders would require
+a very significant amount of resources.
+
+logarithmic 
+
+[[https://en.wikipedia.org/wiki/Logarithmic_scale][Logarithmic scale]] | Wikipedia
+
+In the small world problem -- it is thought that every
+person on the planet is separated by anywhere from 6-8
+levels.  
+
+At some point you start running into the /Map and Territory/
+problem. 
+
+
+Meaning as Internal Interpretation
+
+#+begin_quote
+The sense that sentient creatures have that the various
+objects of our universe are linked is commonly referred to
+as a person's sense of "meaning". This is the sense of
+meaning at work when asking a person when they leave a
+theater, "What did that movie mean to you?" In short, the
+word "meaning" can sometimes be used to describe the
+interpretations that people have of the world.
+
+-- [[https://en.wikipedia.org/wiki/Meaning_(non-linguistic)][Meaning (non-linguistic)]] | Wikipedia]
+#+end_quote
+
+
+
+
+
 The scope model is central to BMF.  In BMF, in theory, every
 Burr must define it's scope.  In most cases this will be
 achieved through inheritance in the cascade, but it still
@@ -310,6 +379,8 @@ These limitations can include:
                   observed previously.
 
 ** Rate of Change (ROC)
+
+ROC can also be seen as a subset of POV
 
 Pacing layers -- the time frame that something is observed
 in determines what is seen -- a human watching a humming
