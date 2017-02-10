@@ -290,26 +290,33 @@ interpretations that people have of the world.
 #+end_quote
 
 
+So let's move the concepts of meaning and knowledge out of
+our model and use the terms to refer to particular states of
+collections of information that have gone through iterative
+processes of building cognitive models of the world.
 
-So let's move meaning and knowledge out of our model and
-use the terms to refer to particular states of collections
-of information that have gone through iterative processes of
-building cognitive models of the world.
-
-What we will focus on in preserving context.  We have
+What we will focus on is preserving context.  We have
 already discussed preserving references but how we do this
-is no as straight forward as it might seem at first.
+is not as straight forward as it might seem at first.
 
-We will call here references that are matched with a pointer
+We will call /references/ that are matched with a pointer
 to the source of the reference or a definition or record
-describing them /links/.  Links can be 
+describing them /links/.  
 
+Links can be broken down into a number of different types:
 
+  - address      :: a place where a resource is located -- this is
+                    in effect, the venerable hyperlink in
+                    all it's glory. hyperlinks transport you
+                    from one location to another.
+  - relationship :: the relationship between two things
+  - definition   :: a resource that defines what something is.
+  - value        :: a key-value pair
+  
 
 ** The Scope Model
 
-Clearly meaning is not what we are striving for
-
+Clearly /meaning/ is not what we are striving for
 
 The scope model is central to BMF.  In BMF, in theory, every
 Burr must define it's scope.  In most cases this will be
