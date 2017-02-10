@@ -123,7 +123,7 @@ public index of what is in the collection.  No one can get a
 dump of all dark content, and there will be a fail2ban
 mechanism, as well as an auto destruct feature
 
-
+[[http://chenla.org]]
 
 * Properties & topicspaces
 :PROPERTIES:
@@ -201,3 +201,87 @@ records.
   - duck~   :: local duck tests
   - scholia :: 
   - gloss   ::
+* Scope
+
+The scope model is central to BMF.  In BMF, in theory, every
+Burr must define it's scope.  In most cases this will be
+achieved through inheritance in the cascade, but it still
+has to be defined at top levels of trees.
+
+Scope is defined through three attributes: /Level of Detail/
+(LOD) Point of View (POV) and Rate of Change (ROC).
+
+** Level of Detail (LOD)
+
+LOD is determined by how close or far the observer is from
+what is being defined.  The closer you are, the more detail
+you see, the farther away, the less detail you see.
+
+There is no one size fit all for defining LOD.  
+
+In 3-D modeling this is achieved by defining the polygon
+count of a model, relative to the distance the model is
+placed from the camera.  The closer the camera gets the more
+polygons a model can be observed.
+
+In imaging, especially arial and satellite imaging, LOD is
+defined by the resolution of a single pixel in an image.  In
+astronomy, a single pixel might represent an entire planet
+or a star or even a galaxy.  For a satellite image, a pixel
+might be anywhere from a kilometer, to a few meters.
+
+In printed matter, such as books and magazines, LOD is
+measured sort of like seeing a forest, in which you can only
+see each tree as a thin trunk or canopy, and then only the
+trees that are at the edge of the forest.  The trees inside
+the forest are completely hidden.  The same goes for books
+in a brick and mortar library.  From outside the stacks, all
+you can see are rows of shelves with ranges of classifiction
+call numbers for books in each row.  But the books are
+completely hidden.  When you get closer you can see the
+books on the shelves of a row, but only the spines, which
+can only be distinguished from each other by color and
+binding type.  You'll usually be able to pick out which
+books are older, which were cheaply printed paperbacks and
+which are quality constructed hard-backs.  Get a little
+closer and you can see a little metadata for each book --
+it's title, author and a logo for the publisher.  Take a
+book off the shelf and if there is dest jacket you can see
+the fill title, author, perhaps an illustration, and a blurb
+on the back, open the cover and the inside sleave of the
+jacket will have a summary of the book.  Open to the title
+page and the publishing information on the opposite side of
+the title page and you will see detailed, structured
+metadata on when the book was published, it's publishing
+history, and perhaps a suggested library catalog record for
+the book. Getting closer, you open the book to the Table of
+Contents to see the overall organization of the book.  And
+then getting closer and you are in the actual text of the
+book -- at full resolution.
+
+LOD could also refer to levels of expertise -- a layman or
+beginner might only see a simple outline of a topic which
+does not use technical terms.  But as skills increase,
+so will the level of detail.  This is one half of leaning --
+the other half is in the level of proficiency through
+memorization and practice which is not only a measure of the
+level of detail but a measure of mastery -- which is handled
+by ROC attribute.
+
+** Scheme Requirements
+
+All values for LOD, POV and ROC MUST be given as a value
+within a defined Scheme or Scale.
+
+So we will MUST define different scales or Schemes
+for different types of context, media and information.
+
+Schemes for each class of Scheme MUST be appled to an entire
+topicspace.
+
+Interoperability between Schemes SHOULD be defined in a
+ruleset, so that Scheme A is defined relative to Scheme B.
+Exceptions to this requirement is expected to be rare.  Even
+when a particular Scheme is the first to be defined, the
+schem MUST be based on empirical observations and backed up
+with references, and authorities.
