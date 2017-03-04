@@ -80,25 +80,6 @@ So ssh'ing into:
 with the proper key-pair would open up that /role/ that would
 have it's own storage, email/messaging address and bramble.
 
-
-  bxid:HEW1-0756  maps  to id:1dc19191-6072-4799-8017-4319a2236101
-
-
-  bxid's have a a TTL when issued that renew themselves
-  based on useage.  
-
-  If it's used once and then not used for 90 days it is
-  canceled and the number goes back into the available pool.
-
-  If it is used on a regular basis for 90 days it will
-  become permanent for one inactive year.
-
-  If it is used on a regular basis for one year, it stays
-  active for 10 years.
-
-  If it is used on a regular basis for ten years, it will
-  stay active for 100 years.
-
 Use the same business model as pinboard.in -- one time fee
 for life, based on number of users that have signed up.
 
@@ -123,6 +104,26 @@ public index of what is in the collection.  No one can get a
 dump of all dark content, and there will be a fail2ban
 mechanism, as well as an auto destruct feature
 
+
+* BXID
+
+  bxid:HEW1-0756  maps  to id:1dc19191-6072-4799-8017-4319a2236101
+
+
+  bxid's have a a TTL when issued that renew themselves
+  based on useage.  
+
+  If it's used once and then not used for 90 days the bxid
+  goes back into the available pool.
+
+  If it is used again x number of times within 90 days it
+  will stay active for one year.
+
+  If it's used on a regular basis for one year, it stays
+  active for 10 years.
+
+  If it is used on a regular basis for ten years, it will
+  stay active for 100 years.
 
 * Properties & topicspaces
 :PROPERTIES:
