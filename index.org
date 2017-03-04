@@ -123,7 +123,6 @@ public index of what is in the collection.  No one can get a
 dump of all dark content, and there will be a fail2ban
 mechanism, as well as an auto destruct feature
 
-[[http://chenla.org]]
 
 * Properties & topicspaces
 :PROPERTIES:
@@ -478,7 +477,20 @@ schem MUST be based on empirical observations and backed up
 with references, and authorities.
 * Wrapper
 
-Google's Protocol Buffers
+Our goal here is to create a wrapper for content payload
+that can be used in the same way that the wrapper for
+email/news works, as well as an archival format.
+
+The wrapper will also double as an index of the content in
+the form of a property graph,
+
+  - wrapper
+  - index
+  - payload
+
+
+
+** Google's Protocol Buffers
 
   - [[https://developers.google.com/protocol-buffers/][Protocol Buffers]] | Google Developers
   - [[https://github.com/google/protobuf/releases][google/protobuf]]  | Github
@@ -493,14 +505,9 @@ message SearchRequest {
 
 
 I like that the types are defined upfront, which may or may
-not effect readability.
+not effect readability....
 
-
-
-
-
-
-Internet Archive | ARC Format
+** Internet Archive | ARC Format
 
   - [[http://fileformats.archiveteam.org/wiki/WARC][WARC - Just Solve the File Format Problem]]
   - [[http://digitalpreservation.gov/formats/fdd/fdd000236.shtml][WARC]]   | Web ARChive file format
