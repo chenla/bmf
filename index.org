@@ -253,8 +253,6 @@ levels.
 At some point you start running into the /Map and Territory/
 problem. 
 
------
-
 ** Meaning as Internal Interpretation
 
 Preserving context is a useful thing to do -- but how does
@@ -286,7 +284,7 @@ theater, "What did that movie mean to you?" In short, the
 word "meaning" can sometimes be used to describe the
 interpretations that people have of the world.
 
--- [[https://en.wikipedia.org/wiki/Meaning_(non-linguistic)][Meaning (non-linguistic)]] | Wikipedia]
+-- [[https://en.wikipedia.org/wiki/Meaning_(non-linguistic)][Meaning (non-linguistic)]] | Wikipedia
 #+end_quote
 
 
@@ -420,7 +418,7 @@ ability to observe relative to what is being defined.
 
 These limitations can include:
 
-  - the physical senses :: visual, audio, smell
+  - senses     :: visual, audio, smell
   - cognition  :: the ability to process information
   - cultural   :: language, social norms, shared memories
   - experience :: compare things observed to simular thing
@@ -478,3 +476,38 @@ Exceptions to this requirement is expected to be rare.  Even
 when a particular Scheme is the first to be defined, the
 schem MUST be based on empirical observations and backed up
 with references, and authorities.
+* Wrapper
+
+Google's Protocol Buffers
+
+  - [[https://developers.google.com/protocol-buffers/][Protocol Buffers]] | Google Developers
+  - [[https://github.com/google/protobuf/releases][google/protobuf]]  | Github
+
+#+begin_src 
+message SearchRequest {
+  string query = 1;
+  int32 page_number = 2;
+  int32 result_per_page = 3;
+}
+#+end_src
+
+
+I like that the types are defined upfront, which may or may
+not effect readability.
+
+
+
+
+
+
+Internet Archive | ARC Format
+
+  - [[http://fileformats.archiveteam.org/wiki/WARC][WARC - Just Solve the File Format Problem]]
+  - [[http://digitalpreservation.gov/formats/fdd/fdd000236.shtml][WARC]]   | Web ARChive file format
+  - [[https://archive.org/web/researcher/ArcFileFormat.php][ARC File Format Reference]] | Internet Archive
+  - [[http://www.digitalpreservation.gov/formats/fdd/fdd000235.shtml][ARC_IA]] | Internet Archive ARC file format
+
+Tools
+
+  - [[https://github.com/chfoo/warcat][chfoo/warcat]] | Github
+
