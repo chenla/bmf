@@ -107,6 +107,11 @@ mechanism, as well as an auto destruct feature
 
 * BXID: Easy on the Eye, Ear and Memory 
 
+#+begin_comment
+This section is based on section from Sticky Stuff.
+#+end_comment
+
+
 For BMF to work we need a system which is globally unique,
 but also is easy to remember and quickly and accurately
 written down in awkward situations, like on the street or in
@@ -114,7 +119,7 @@ a crowded bar (ie. the five pint rule: if you write it down
 in a bar after drinking five pints and can still read it in
 the morning it's a good system).
 
-In a recent paper on the same topic, Sheldon Brahms wrote,
+In a paper on the same topic, Sheldon Brahms wrote,
 
 #+begin_quote
 Most phone systems decades ago used a combination of
@@ -126,13 +131,13 @@ numbers, a phone number would be expressed as WA 5-3491.
 -- [[http://www.hastingsresearch.com/net/05-nomenclature.shtml][The U.S. Phone Nomenclature System]] | Sheldon Brahms 
 #+end_quote
 
-This gave a sing-song, almost rhythm or lilt to the way a
-phone number was said. Often, advertisers used this
-phenomenon in jingles, which were also very popular in years
-past. Phone numbers were sung along with the rest of the
-lyric for client identification, and it lent itself very
-well to memory. Businesses would pay extra for phone numbers
-that rhymed or otherwise went well with this effect.[BRAHMS]
+This gave a sing-song, rhythm or lilt to the way a phone
+number was said. Often, advertisers used this phenomenon in
+jingles, which were also very popular in years past. Phone
+numbers were sung along with the rest of the lyric for
+client identification, and it lent itself very well to
+memory. Businesses would pay extra for phone numbers that
+rhymed or otherwise went well with this effect.[BRAHMS]
 
 He recommended development of a similar system. Since we
 needed a practical solution for us to continue development
@@ -143,16 +148,18 @@ enough possible IDs to build a global URI system.
 Each BXID which is made up of three letters from the roman
 alphabet followed by a number then separated by a dash and
 then a four digit integer. GOL2-1023 could be remembered as
-Golum Ten Twenty-three. This produces over 175 million
+Golum 2 Ten Twenty-three. This produces over 175 million
 possible ids.
 
 Here are a few examples of BXIDs:
 
-   SBY7-8413
-   CED2-8235
-   GUL6-0282
-   SKD3-0655
-   QLV8-2404
+#+begin_example
+SBY7-8413
+CED2-8235
+GUL6-0282
+SKD3-0655
+QLV8-2404
+#+end_example
    
 
 In order for a BXID to be unique, every BXID must belong to
@@ -162,12 +169,14 @@ are used in XML namespaces.
 
 Here are a few examples of BXIDs with topicspaces:
 
+
+#+begin_example
    aut:SBY7-8413
    geo:CED2-8235
    aut:CED2-8235
    evn:CED2-8235
    evn:GUL6-0282
-   
+#+end_example
 
 In the example above, note that the BXID CED2-8235 is used
 by the geo, aut and evn topicspaces. These are all valid
@@ -195,6 +204,11 @@ topicspaces.
   stay active for 100 years.
 
 * Properties & topicspaces
+
+Topicspaces are name spaces for collections of information.
+
+
+
 :PROPERTIES:
 :ID:            c3b6190b-2202-4deb-af82-71d3c6d046dc
 :CUSTOM_ID:     per:Carl_Marx
