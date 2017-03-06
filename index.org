@@ -602,3 +602,37 @@ Tools
 
   - [[https://github.com/chfoo/warcat][chfoo/warcat]] | Github
 
+* Horcrux
+
+A Horcrux is a self-executing container:
+
+  - hoard
+  - saltmine
+  - picolisp
+  - alpine linux
+  - container (docker or rkt)
+
+A hoard is simular an ARC/WARC file in that it is a file in
+which chunks are appended at the end -- write once, no
+delete. 
+
+Each chunk is made up of an:
+
+  - envelop
+  - index
+  - payload
+
+
+envelops are simular to a email/nntp header with basic
+information including ids, checksums etc
+
+an index is a bag of property triples that index what is in
+the payload
+
+the payload can be:
+
+  - text/code
+  - data (eg tabular)
+  - code
+  - blob
+  - empty
