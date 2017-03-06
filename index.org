@@ -604,7 +604,9 @@ Tools
 
 * Horcrux
 
-A Horcrux is a self-executing container:
+A Horcrux is a self-executing container that contains holons
+which are both self contained wholes as well as parts of
+larger wholes.
 
   - hoard (25, 50, 100, 25, 500 MB)
   - saltmine
@@ -613,10 +615,9 @@ A Horcrux is a self-executing container:
   - container (docker or rkt)
 
 A hoard is simular an ARC/WARC file in that it is a file in
-which chunks are appended at the end -- write once, no
-delete. 
+which chunks are concated -- write once, no delete.
 
-Each chunk is made up of an:
+Each chunk is a /holon/ that is made up of an:
 
   - envelop
   - index
@@ -635,4 +636,19 @@ The payload can be:
   - code
   - blob
   - empty
+
+Every horcrux will not only have an api, but will also have
+a minimal shell that can be ssh'd into.  Still not sure that
+we need that -- but since every horcrux is also a fragment
+of an identity, each horcrux will need all of the unixy user
+account stuff that is needed as part of identity and role
+management.
+
+Each horcrux is a snowflake -- you'll never back up or
+duplicate an entire horcrux, rather all of the holons in
+each horcrux will maintain a set number of distributed
+copies of themselves which will reside in any number of
+horcruxes.  There will not be multiple copies of a holon in
+the same horcrux, though it might be possible that different
+versions of the same holon may reside in the same horcrux.
 
