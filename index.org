@@ -606,7 +606,7 @@ Tools
 
 A Horcrux is a self-executing container:
 
-  - hoard
+  - hoard (25, 50, 100, 25, 500 MB)
   - saltmine
   - picolisp
   - alpine linux
@@ -622,17 +622,17 @@ Each chunk is made up of an:
   - index
   - payload
 
+Envelops are simular to a email/nntp header with basic
+information including ids, checksums etc.
 
-envelops are simular to a email/nntp header with basic
-information including ids, checksums etc
+An index is a bag of property triples that index what is in
+the payload -- each triple is a /fnord/.
 
-an index is a bag of property triples that index what is in
-the payload
-
-the payload can be:
+The payload can be:
 
   - text/code
   - data (eg tabular)
   - code
   - blob
   - empty
+
