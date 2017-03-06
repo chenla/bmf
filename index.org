@@ -654,7 +654,7 @@ versions of the same holon may reside in the same horcrux.
 
 ----
 
-Horcruxes come in three flavours:
+Horcruxes come in four flavours:
 
  - hoards :: hold the data and do first pass processing on
              that data.
@@ -662,11 +662,8 @@ Horcruxes come in three flavours:
              processing holons using rulesets.
  - maps   :: collect output from ducks into world-maps that
              are then available to applications.
-
-There are likely going to be different types of maps as
-well, some will be to create databases for search engines,
-others to export into user-formats for people to be able to
-read.
+ - export :: export payloads in holons to end-user formats
+             -- generate latex, pdfs, static sites, rss etc.
 
 ----
 
@@ -674,10 +671,20 @@ What we're still missing is how the horcruxes will talk to
 each other and how you will find information that is in a
 given horcrux.
 
+   are we talking about routing here?  that if you ping a
+   holon, the horcruxes that of all the copies of that holon
+   will ping back?
+
+   if so, a horcrux is functionally a host -- which is not
+   such a stretch here -- but you should not be able to
+   traceroute a horcrux -- pings are broadcast, and listened
+   for by horcruxes -- and when horcruxes are created there
+   shouldn't be any way to know where they are hosted.
+
 And the system needs to provide privacy as well as
-transparency.   Any content can be either public, private or
+transparency.  Any content can be either public, private or
 limited to a specific group.
 
 We also need to understand how the system establishes trust
-without having to trust in either party.
+without having to trust in any other party.
 
