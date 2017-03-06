@@ -641,8 +641,8 @@ Every horcrux will not only have an api, but will also have
 a minimal shell that can be ssh'd into.  Still not sure that
 we need that -- but since every horcrux is also a fragment
 of an identity, each horcrux will need all of the unixy user
-account stuff that is needed as part of identity and role
-management.
+account stuff that is needed as part of identity, role and
+permission management.
 
 Each horcrux is a snowflake -- you'll never back up or
 duplicate an entire horcrux, rather all of the holons in
@@ -651,4 +651,20 @@ copies of themselves which will reside in any number of
 horcruxes.  There will not be multiple copies of a holon in
 the same horcrux, though it might be possible that different
 versions of the same holon may reside in the same horcrux.
+
+----
+
+Horcruxes come in three flavours:
+
+ - hoards :: hold the data and do first pass processing on that data
+ - ducks :: are tangled from hoards and are designed to
+            processing holons using rulesets 
+ - maps :: collect output from ducks into world-maps that
+           are then available to applications
+
+There are likely going to be different types of maps as
+well, some will be to create databases for search engines,
+others to export into user-formats for people to be able to
+read.
+
 
