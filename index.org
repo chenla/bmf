@@ -697,3 +697,31 @@ limited to a specific group.
 We also need to understand how the system establishes trust
 without having to trust in any other party.
 
+---
+
+bitcoin is brute force trust -- there are no shades of gray
+
+and it's all open -- what if we substitute all that heavy
+computation with complexity and any number of doors that
+need to be passed through -- and keys.
+
+but those locks only open if all the other locks in /front/ of
+them have not been tampered with.  huh?  you can never only
+unlock the door in front of you, it must also be able to
+lock the last door as well?
+
+need to think about all of that -- I'm fucking tired right
+now.
+
+but what is needed in to establish reputation which needs to
+be established over time -- replace the heavy computation
+with reputation that requires a lot of work and time to
+establish and the more the system is used, the less likely
+that you'll be able to fake a reputation -- reputation must
+be independent of motive -- even if you want to be a bad
+actor, you can't build a reputation unless you are doing the
+right thing.
+
+
+
+
