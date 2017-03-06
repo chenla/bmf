@@ -675,11 +675,20 @@ given horcrux.
    holon, the horcruxes that of all the copies of that holon
    will ping back?
 
-   if so, a horcrux is functionally a host -- which is not
-   such a stretch here -- but you should not be able to
-   traceroute a horcrux -- pings are broadcast, and listened
-   for by horcruxes -- and when horcruxes are created there
-   shouldn't be any way to know where they are hosted.
+   if so, in effect, a horcrux is functionally a host --
+   which is not such a stretch here -- but you should not be
+   able to traceroute a horcrux -- pings are broadcast, and
+   listened for by horcruxes -- and when horcruxes are
+   created there shouldn't be any way to know where they are
+   hosted.
+
+   if you request a holon -- it is sent, and then listened
+   for by the requesting application.  Your don't know where
+   the horcrux is....  
+
+   But then how can you ssh into a horcrux without
+   establishing and end-to-end encrypted tunnel?
+
 
 And the system needs to provide privacy as well as
 transparency.  Any content can be either public, private or
