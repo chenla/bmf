@@ -720,7 +720,15 @@ establish and the more the system is used, the less likely
 that you'll be able to fake a reputation -- reputation must
 be independent of motive -- even if you want to be a bad
 actor, you can't build a reputation unless you are doing the
-right thing.
+right thing because if you do bad shit you loose your
+reputation and the ability to do anything bad again without
+rebuilding from scratch.
+
+----
+
+it will also work like bittorent -- all the copies are
+seeders and requesting anything will pull from any or all
+copies -- especially for large files like music or video
 
 
 
