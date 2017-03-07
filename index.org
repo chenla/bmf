@@ -726,10 +726,30 @@ rebuilding from scratch.
 
 ----
 
+in effect reputation is granted by the system, and the
+system is deemed trustworthy in such things...  which might
+not be enough -- but then we are not transfering, but
+instead creating and destroying tokens.  So there could be
+such a thing as provisional creation/destruction so that
+things could be restored within that provisional period.
+
+
+----
+
 it will also work like bittorent -- all the copies are
 seeders and requesting anything will pull from any or all
 copies -- especially for large files like music or video
 
+** Bayesian
 
+of course we also can do the whole white list training set
+thing -- where we have a cannonical list of established
+facts and anti-facts that are used for establishing patterns
+that recognize corruption and fakery
 
+this is good to statistically find false statements but is
+it good enough for transactions which need to be complete
+quickly and reliably?
+
+ 
 
