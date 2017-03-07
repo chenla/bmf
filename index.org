@@ -733,7 +733,6 @@ instead creating and destroying tokens.  So there could be
 such a thing as provisional creation/destruction so that
 things could be restored within that provisional period.
 
-
 ----
 
 it will also work like bittorent -- all the copies are
@@ -753,3 +752,56 @@ quickly and reliably?
 
  
 
+* TTL
+
+Section based on text from: [[id:bc63e040-10f8-4964-9afe-627ffc1e6330][TTL]] | Notes
+
+messages and facts have a ttl
+
+replication is checked  -- as part of cleanup.  The top 20%  of
+content is kept local
+
+the other 80% is distributed -- if there are xxx number of copies
+available then you don't bother to keep a local copy, but if that
+number drops below, you a) keep a local copy, and b) randomly seed
+copies to bring up the count to the proper number.
+
+  - number of seeders
+  - number of copies
+  - distribution of copies (how many hops)
+  - number of store and forward peers
+
+
+everyone has to provide x times storage than they personally use.  So
+if you have 1MB of files, you must keep 10MB of storage as backup of
+other people's files.
+
+unlike bittorrent, the number of seeders is maintained by the
+application -- so there are always enough seeders and enough copies.
+
+this house keeping is achieved through a store and forward mechanism
+-- sort of a rhizomatic uucp system, that maintains a minimum number
+of connections to peers who they sync with.
+
+Peers must be a combination of single and muti-hop distances from
+you. This will make the store and forward system resilient but also
+more uniformly distributed.
+
+Servers must be both stationary and mobile -- I like the idea of
+putting them on planes and in long haul trucks, but cars and laptops
+should also be possible -- they sync where ever they stop -- and they
+won't know who they sync with until they start --
+
+Stationary servers in places like coffee shops sync with who ever
+comes in, which changes their hop topology, so everything is in
+constant motion.  Information gravitates closer to where people are
+using is, even though no one knows who is using what, and you don't
+know what is where -- you simply tune in to what you want -- like the
+Whisper architecture.
+
+A coffee shop provides wifi and server services, but it is only free
+if the connecting laptops and devices also provide the same features
+-- if you don't, you have to pay -- and not pay the coffee shop, but
+pay the network -- which will destroy coins on your laptop, but the
+shop will generate additional coins when the produce more than they
+use.
