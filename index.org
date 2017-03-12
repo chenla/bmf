@@ -20,31 +20,36 @@
 
 #+TOC: headlines 4
 
+* About these pages
 
-* Status of This Document
+#+begin_quote
+Burr Metadata Framework (BMF specs and standards)
+#+end_quote
 
-The latest version of this document is: src_sh[:results value]{git describe --abbrev=0 --tags}
+* Recent Activity
 
-#+HTML: <div class="notice notice-info">
-*Changes since the last version*
+Recent change activity on http://github.com/deerpig/deerpig-install
 
-#+HTML: <ul>
-
-#+BEGIN_SRC sh :exports results :results value html :var TAG="v00.01.02"
-  RES='git log $TAG...HEAD --pretty="<li>%s</li>\n" -- (file-name-nondirectory (buffer-file-name))'
-  if [ -z $RES ]; then
-    RES="<li>no changes</li>"
-  fi
-  echo $RES
+#+BEGIN_SRC sh :exports results :results silent
+githubchart -u deerpig ~/proj/img/contrib.svg
 #+END_SRC
 
 #+RESULTS:
-#+BEGIN_EXPORT html
-<li>no changes</li>
-#+END_EXPORT
 
-#+HTML: </ul>
+[[~/proj/img/contrib.svg]]
+
+#+HTML: <div class="contrib-legend text-small text-muted" title="A summary of pull requests, issues opened, and commits to the default and gh-pages branches.">
+#+HTML:  <span>Less</span>
+#+HTML:   <ul class="legend">
+#+HTML:     <li style="background-color: #eee"></li>
+#+HTML:     <li style="background-color: #d6e685"></li>
+#+HTML:     <li style="background-color: #8cc665"></li>
+#+HTML:     <li style="background-color: #44a340"></li>
+#+HTML:     <li style="background-color: #1e6823"></li>
+#+HTML:   </ul>
+#+HTML:  <span>More</span>
 #+HTML: </div>
+
 
 * Introduction
 
