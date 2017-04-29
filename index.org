@@ -879,3 +879,33 @@ AND -- this has to be a stand alone cli application with an
 cli interface  -- like git which is not tied to emacs.  So
 that interfaces for web browsers and other environments are
 relatively easy to implement.
+
+
+* Scholia & Closses
+
+Could the proposed version control concept above really be
+suitable for glosses and scholia? If so, then it needs to be
+kept separate from logs, and also bundled properly as well.
+
+Are logs just another scholia type?
+
+If the scholia is pointing to a whole burr or a subheading
+(read block level) then, no problem.  But inline glosses
+are a real bitch.
+
+Glosses have really bugged me for some time because they
+have to refer to very specific locations or spans of text.
+
+One way of doing this (I've thought about this on and off for
+decades) is a CSS selector approach.
+
+Since logs, glosses and scholia can't be embedded in burrs,
+the way that anchors and links are done, this might be the
+only approach -- CSS selectors work, but there will be a lot
+of code to get them to work and I don't know how reliable
+the will be.  But since they are based on specific
+versions this could be a real problem.
+
+A gloss could point to text in a version that doesn't exist
+in another version, so it would dead end at that point.  I
+don't see any way around that....
