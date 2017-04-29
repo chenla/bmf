@@ -863,3 +863,8 @@ But just as importantly we need a browser interface --
 perhaps a 2-pane interface so you can easily go through
 versions over time.  Then it would also need a three pane
 mode so that you can diff between two versions....
+
+AND -- this has to be a stand alone cli application with an
+cli interface  -- like git which is not tied to emacs.  So
+that interfaces for web browsers and other environments are
+relatively easy to implement.
