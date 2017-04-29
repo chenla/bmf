@@ -823,7 +823,7 @@ part of the system.  Rather than being only descriptions of
 the changes made (which is very valuable, esp for code), but
 there could be other types -- including running commentary,
 glosses, whole scholia, and even whimsical notes that
-document the authors state of mind or intention when making
+document the author's state of mind or intention when making
 the entry.  And all of this can be in org syntax, and
 treated as org-headers so it's all easily edited after the
 fact.
@@ -849,6 +849,17 @@ about loosing the notes if you copy a file.  But in that
 case you have the org-id which is universal, and we can
 build an archival bundle function that will pull all the
 info together for publishing and export.
+
+In fact there shouldn't be any reason why we can't somehow
+make it possible to use both git and bmf version together.
+If you do, you could use git for the descriptive changes,
+and then bmf for the other, but bmf will grab the git
+changes and include them in it's own log.  That should work
+both ways -- so that if you make a bmf commit it then makes
+a git commit as well.  That's not a trivial thing to pull
+off, but it will likely have to be done to make it easier
+for people hosting brambles in git repos, and for adoption
+in general.
 
 we then use the.bmf dir for all the previous versions of
 burrs as well -- which is not much different from the way
