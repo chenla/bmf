@@ -824,7 +824,9 @@ the changes made (which is very valuable, esp for code), but
 there could be other types -- including running commentary,
 glosses, whole scholia, and even whimsical notes that
 document the authors state of mind or intention when making
-the entry.
+the entry.  And all of this can be in org syntax, and
+treated as org-headers so it's all easily edited after the
+fact.
 
 But these entries must be made when staging and committing,
 not when editing the document.  And then the question
@@ -852,3 +854,12 @@ we then use the.bmf dir for all the previous versions of
 burrs as well -- which is not much different from the way
 org does archiving but we keep it from cluttering up the
 directory.
+
+So we will very much need an app like magit to provide an
+interface for all of this to make the workflow as fluid as
+possible.
+
+But just as importantly we need a browser interface --
+perhaps a 2-pane interface so you can easily go through
+versions over time.  Then it would also need a three pane
+mode so that you can diff between two versions....
