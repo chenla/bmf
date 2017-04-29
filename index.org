@@ -810,3 +810,45 @@ if the connecting laptops and devices also provide the same features
 pay the network -- which will destroy coins on your laptop, but the
 shop will generate additional coins when the produce more than they
 use.
+
+* Literate Version Control
+
+Version control must be a fundemental part of BMF.  While it
+is being built it is using Git for this, but eventually it
+all has to be native.
+
+I've been playing with the idea of /literate version
+control/, which uses the change log entries as an important
+part of the system.  Rather than being only descriptions of
+the changes made (which is very valuable, esp for code), but
+there could be other types -- including running commentary,
+glosses, whole scholia, and even whimsical notes that
+document the authors state of mind or intention when making
+the entry.
+
+But these entries must be made when staging and committing,
+not when editing the document.  And then the question
+becomes where do they go?  I don't think they should be part
+of the document/burr.  But that means they need to be
+separate entries in their own right.
+
+So perhaps:
+
+  - file/subheading.ext
+  - file/subheading.log
+
+every burr will have a org-id, bxid, version number but
+then for each verson there will be a log file that includes
+the notes and other metadata (who did it, when, where etc.)
+
+logs could be kept in a .bmf directory in the same dir as
+the files which has advantages and drawbacks.  I'm worried
+about loosing the notes if you copy a file.  But in that
+case you have the org-id which is universal, and we can
+build an archival bundle function that will pull all the
+info together for publishing and export.
+
+we then use the.bmf dir for all the previous versions of
+burrs as well -- which is not much different from the way
+org does archiving but we keep it from cluttering up the
+directory.
