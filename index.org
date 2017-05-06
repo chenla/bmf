@@ -50,6 +50,10 @@ githubchart -u deerpig ~/proj/img/contrib.svg
 #+HTML:  <span>More</span>
 #+HTML: </div>
 
+* Table of Contents
+
+ - [[./bmf-geo.org][Geographic Encoding]]
+
 
 * Introduction
 
@@ -65,9 +69,7 @@ We need a selector mechanism in orgmode for layers to work
 can we use org-id for #+insert  ?
 
 * Identities & Roles
-:PROPERTIES:
-:ID:       7396a2ae-5139-4e84-bedc-fab4bc1b8e5c
-:END:
+
 
 An identity manager could map identities to a virtual, virtual
 machine and roles to user accounts on that machine.  In this
