@@ -69,20 +69,28 @@ Some of the advantages of UTM coordinates include...
  zone[-]easting[-]northing[-]elevation
 
 
-* Elevations
+* Elevation
 
-Elevations are traditionally given on earth as feet or meters above
-sea level.
+ - [[https://en.wikipedia.org/wiki/Elevation][Elevation]] | Wikipedia
+ - [[https://en.wikipedia.org/wiki/Geoid][Geoid]]     | Wikipedia
+ - [[https://en.wikipedia.org/wiki/International_Terrestrial_Reference_System][International Terrestrial Reference System]] | Wikipedia
 
-That will change over time -- we need a means of establishing what sea
-level is for a given period of time....
+Elevations are traditionally given on earth as feet or meters above a
+geoid (a geographical reference point) which in earth is usually sea
+level.  Height is measurment measured from the ground, such as a
+building or person, while altitude is typically used for objects which
+are above the ground, but not on it, such as a balloon, airplane or
+satellite .
+
+Sea leel will change over time -- we need a means of establishing what
+sea level is for a given period of time....
 
 Next -- when you are in a building, you are xx meters above the ground
 which is above sea level.
 
 So if you are in a manmade structure we need a different notation
 
-  15+9m would be 15 meters above sea level an 9 meters above ground
+  15+9m would be 15 meters above sea level and 9 meters above ground
   level.
 
 perhaps we add the level number:
