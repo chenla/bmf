@@ -103,7 +103,7 @@ meters above ground.  But the height of floors varies considerably.
 So what are we trying to do here?  Elevation, height and altitude are
 good within each context -- but don't translate very well between each
 other.  If BMF is to be a long term and universal system -- we will
-beed a notation that works across all of these contexts without being
+need a notation that works across all of these contexts without being
 losey -- this isn't a cadastral map...
 
 For earth -- sea level is extremely important information -- so
