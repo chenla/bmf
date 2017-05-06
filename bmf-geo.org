@@ -1,0 +1,28 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+TITLE: Geographic Encoding
+#+STARTUP: showall
+#+PROPERTY: filename
+  :PROPERTIES:
+  :Name:      /home/deerpig/proj/chenla/bmf/bmf-geo.org
+  :Created:   2017-05-06T18:29@Prek Leap (11.642600N-104.919210W)
+  :ID:        2e07d5c2-d057-4a6f-9314-11c18ab2294c
+  :VER:       547342248.778280649
+  :GEO:       48P-491193-1287029-15
+  :BXID:      LXD0-1288
+  :TS:        chenla.org/ts/bmf
+  :CUSTOM_ID: 
+  :END:
+#+INCLUDE: ./inc/head.org
+#+INCLUDE: ./inc/macros.org
+
+{{{breadcrumbs}}}
+
+#+HTML: <div class="outline-2" id="meta">
+| *Author*  | Brad Collins <brad@chenla.org>             |
+| *Date*    | {{{time(%Y-%m-%d %H:%M:%S)}}}              |
+#+HTML: </div>
+
+#+TOC: headlines 4
+
+* Introduction
+
