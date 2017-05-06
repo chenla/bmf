@@ -100,3 +100,16 @@ perhaps we add the level number:
 Buildings are more about what number floor, rather than how many
 meters above ground.  But the height of floors varies considerably.
 
+So what are we trying to do here?  Elevation, height and altitude are
+good within each context -- but don't translate very well between each
+other.  If BMF is to be a long term and universal system -- we will
+beed a notation that works across all of these contexts without being
+losey -- this isn't a cadastral map...
+
+For earth -- sea level is extremely important information -- so
+perhaps we could use a sea level epoch -- the sea level that
+corresponds to the time epoch (in our case that is the year 2000).
+
+And after reading up on these things, there is no one size fit all --
+we just need to have everything recorded so we know how things are at
+a given moment relative to another moment.
