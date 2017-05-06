@@ -35,7 +35,7 @@ https://www.daftlogic.com/sandbox-google-maps-find-altitude.htm
 http://www.latlong.net/c/?lat=11.642551&long=104.919203
 UTM: 48P 491193.09mE 1287029.38mN 15mE (pnca office)
 http://www.latlong.net/c/?lat=11.642788&long=104.918637
-UTM: 48P 491131.40mE 1287055.60mN 24mE (pnca flat)
+UTM: 48P 491131.40mE 1287055.60mN 24mE (4th floor pnca flat)
 
 
 BMF uses the Universal Transverse Mercanter coordinate system for all
@@ -67,3 +67,28 @@ Some of the advantages of UTM coordinates include...
  48P-491193-1287029-15
 
  zone[-]easting[-]northing[-]elevation
+
+
+* Elevations
+
+Elevations are traditionally given on earth as feet or meters above
+sea level.
+
+That will change over time -- we need a means of establishing what sea
+level is for a given period of time....
+
+Next -- when you are in a building, you are xx meters above the ground
+which is above sea level.
+
+So if you are in a manmade structure we need a different notation
+
+  15+9m would be 15 meters above sea level an 9 meters above ground
+  level.
+
+perhaps we add the level number:
+
+  15+9m=4f
+
+Buildings are more about what number floor, rather than how many
+meters above ground.  But the height of floors varies considerably.
+
