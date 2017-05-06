@@ -44,6 +44,26 @@ geographic coordinates.
  - [[https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system][Universal Transverse Mercator coordinate system]] | Wikipedia
  - [[https://www.maptools.com/tutorials/utm/quick_guide][A Quick Guide to Using UTM Coordinates]] | Maptools
 
+#+begin_quote
+If your using a large scale map, you have UTM coordinates information,
+and your peers haven't already made the decision for you, then UTM is
+likely to be your best bet.
+
+Some of the advantages of UTM coordinates include...
+
+  - Square grids
+  - East-West units of measure are the same as North-South units
+  - Decimal based, no fussing with minutes and seconds.
+  - Coordinates translate directly to distances on the ground.
+  - Coordinate precision is easily understood. No need to wonder what
+    distance a tenth of a second of longitude represents.
+  - It's easy to abbreviate coordinates when working in a small area.
+
+-- [[https://www.maptools.com/selecting_a_coordinate_system][Selecting a Geographic Coordinate System]] | maptools
+#+end_quote
+
+
+
  48P-491193-1287029-15
 
  zone[-]easting[-]northing[-]elevation
