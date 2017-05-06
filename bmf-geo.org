@@ -42,7 +42,7 @@ BMF uses the Universal Transverse Mercanter coordinate system for all
 geographic coordinates.
 
  - [[https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system][Universal Transverse Mercator coordinate system]] | Wikipedia
-
+ - [[https://www.maptools.com/tutorials/utm/quick_guide][A Quick Guide to Using UTM Coordinates]] | Maptools
 
  48P-491193-1287029-15
 
