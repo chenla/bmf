@@ -25,3 +25,41 @@
 
 * Introduction
 
+* test
+  :PROPERTIES:
+  :CUSTOM_ID: _()
+  :Created:   2017-05-07T07:01@Prek Leap (11.642600N-104.919210W)
+  :ID:        211c3e4a-c31a-41c0-b11f-720f5b74a447
+  :STAMP:     547387365.459017524
+  :GEO:       48P-491193-1287029-15
+  :BXID:      [[proj:MBG1-0425]]
+  :END:
+
+  :TREE:
+  :UF:  
+  :BTI: [[bmf:burr]] [[bmf:work]]
+  :BT:
+  :NT:  no need for narrower terms -- the db will find those
+  :RT:
+  :END:
+
+
+BY       | author/owner
+BYA      | author
+BYC      | contributor
+BYO      | owner
+BYE      | editor
+BYT      | translator
+
+LANG     | language
+
+
+RW       | read/write
+RWX      | read/write/execute
+R        | read
+W        | write
+X        | execute
+
+  owner
+  group
+  other
