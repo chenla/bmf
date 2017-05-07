@@ -75,6 +75,35 @@ So if I say that George Butterick is an editor -- that is a role that
 I have conferred on him, and a role conferred on him by his publisher,
 and is part of his role as literary executor and Olson scholar.
 
+But how does this help us to compartmentalize different roles and
+firewall different aspects of different roles from each other?  People
+don't consciously change roles, they don't think, okay now I'm doing
+this as a boyfriend, and then I am doing this as a student even though
+we are changing roles when we do so.  And it doesn't help that
+internet and computer software, interfaces and social media make no
+distinctions.   And it's not feasible to say, if I am in this physical
+place, I am exclusively in this role.  Even if you are, especially if
+you are police, or an ER Nurse or Judge, you will get calls during
+working hours, you will spend a free minute looking for a birthday
+present for your wife online.
+
+So we must assign roles to things we do at a fairly fine-grained level
+and our software needs to notice the context and ask us which role
+your are in.  If your wife is part of your spouse role, and you call
+her or answer a call from her, that call should be shunted into the
+spouse role automatically.  So you only have to choose a couple of
+times to train your apps and social media and it will firewall things
+for you.  But social media accounts are not associated with roles but
+with personas.  A persona is an active self-image you act in.  A
+facebook account, or twitter account is a persona -- you can't
+compartmentalize within it.  But there is no reason why you can't have
+multiple account which are associated with a persona and groups of
+roles.
+
+So a persona can be associated with a number of public, or semi-public
+roles.  I'd like to be able to associate different sub-reddits I
+subscribe to with different personas and different roles.
+
 
 * Language
 
