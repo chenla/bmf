@@ -79,11 +79,11 @@ in determining context, and determine if a fnord is true or not.
 
 * Global Group
 
-| BMF   | BMF version      |
-| ENC   | encoding method  |
-| CB    | Celestial Body   |
-| UNI   | Universe         |
-| UNITS | Measuring System |
+| BMF       | BMF version      |
+| ENCODE    | encoding method  |
+| CELESTIAL | Celestial Body   |
+| UNIVERSE  | Universe         |
+| UNITS     | Measuring System |
 
 
 I'm really not sure about this.  At the moment everything is unicode
