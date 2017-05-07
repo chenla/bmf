@@ -52,6 +52,8 @@ githubchart -u deerpig ~/proj/img/contrib.svg
 
 * Table of Contents
 
+ - [[./bmf-notes.org][Notes]]
+
  - [[./bmf-geo.org][Geographic Encoding]]
 
 

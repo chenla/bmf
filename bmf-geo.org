@@ -26,8 +26,6 @@
 
 * Introduction
 
-
-
 http://www.latlong.net/lat-long-utm.html
 https://www.daftlogic.com/sandbox-google-maps-find-altitude.htm
 
@@ -95,7 +93,9 @@ So if you are in a manmade structure we need a different notation
 
 perhaps we add the level number:
 
-  15+9m=4f
+  15+9m/4
+
+
 
 Buildings are more about what number floor, rather than how many
 meters above ground.  But the height of floors varies considerably.
@@ -113,3 +113,43 @@ corresponds to the time epoch (in our case that is the year 2000).
 And after reading up on these things, there is no one size fit all --
 we just need to have everything recorded so we know how things are at
 a given moment relative to another moment.
+
+
+* test
+  :PROPERTIES:
+  :CUSTOM_ID: _()
+  :Created:   2017-05-07T07:01@Prek Leap (11.642600N-104.919210W)
+  :ID:        211c3e4a-c31a-41c0-b11f-720f5b74a447
+  :STAMP:     547387365.459017524
+  :GEO:       48P-491193-1287029-15
+  :BXID:      [[proj:MBG1-0425]]
+  :END:
+
+  :TREE:
+  :UF:  
+  :BTI: [[bmf:burr]] [[bmf:work]]
+  :BT:
+  :NT:  no need for narrower terms -- the db will find those
+  :RT:
+  :END:
+
+
+BY       | author/owner
+BYA      | author
+BYC      | contributor
+BYO      | owner
+BYE      | editor
+BYT      | translator
+
+LANG     | language
+
+
+RW       | read/write
+RWX      | read/write/execute
+R        | read
+W        | write
+X        | execute
+
+  owner
+  group
+  other
