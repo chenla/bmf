@@ -53,6 +53,28 @@
 | BYE | editor       |
 | BYT | translator   |
 
+Attribution, in most metadata schemes is either too detail or not
+detailed enough, but we need to have both.
+
+Attribution should point to a role not an identity -- and actually,
+owner, contributor, editor, translaster etc. are in themselves roles.
+
+I have tended to think of roles as being formal and defined.  But they
+are not -- they are fluid and can be created anywhere.
+
+The thing is, there are roles that we define about ourselves that
+reflect our inner self image, the image we project to others, and then
+roles that others assign to us.
+
+And I'm realizing now that I'm conflating roles and personas.
+
+Perhaps I've got this all wrong.  We don't need to hardcode these
+roles and personas 
+
+So if I say that George Butterick is an editor -- that is a role that
+I have conferred on him, and a role conferred on him by his publisher,
+and is part of his role as literary executor and Olson scholar.
+
 
 * Language
 
@@ -60,13 +82,13 @@
  - [[https://en.wikipedia.org/wiki/Ethnologue][Ethnologue]] | Wikipedia
  - [[https://www.ethnologue.com/][Ethnologue]] | Languages of the World
  - [[http://www-01.sil.org/iso639-3/download.asp][ISO 639-3 Downloads]] | SiL International
- - [[https://en.wikipedia.org/wiki/ISO_639:a][ISO 639:a]]  Wikipedia
+ - [[https://en.wikipedia.org/wiki/ISO_639:a][ISO 639:a]]  | Wikipedia
  - [[https://en.wikipedia.org/wiki/List_of_ISO_639-5_codes][List of ISO 639-5 codes]] | Wikipedia
  - [[http://glottolog.org/][Glottolog 3.0]]
 
-Language settings are not binary, they should be a list of languages
-used in the document, with the primary language being first followed
-by other languages used in the Burr.
+Language settings are a list of languages used in the burr, with
+the primary language being first followed by other languages used in
+the Burr.
 
 Usually language settings only determine character sets, fonts and
 whih languages that GUI labels, menus, and documentation are written
