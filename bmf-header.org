@@ -91,7 +91,7 @@ and unicode will be with us for the foreseeable future and is making
 heroic efforts to be global and inclusive (even though they won't
 include Klingon :)).
 
-But it's also something that we need to make explicit -- even it it's
+But it's also something that we need to make explicit -- even if it's
 only set at the top level of each bramble -- though I'm not sure if it
 should be indexed -- because it it's set at the top level, then every
 burr in the bramble inherits it and you will have a triple for each
@@ -118,6 +118,18 @@ universe etc -- those don't need to be indexed.  So yes, those can go
 into a non-indexed set of records that are part of the bramble, but
 will not be included in every burr.
 
+We can then add a means for adding and deleting these things from
+being indexed -- so we would turn it on for say Cassini or
+Pathfinder's brambles, because they are not on earth -- so it becomes
+an exception in their case.  Eventually, once we have substantial
+numbers of people living throughout the solar systems the celestial
+body will be an important item to include in all burrs.  
+
+Same goes for virtual worlds set in alternate universes -- this is
+already significant and will become increasingly significant once
+emersive VR becomes common place.  That happens in those universes
+needs to be internally consistent which is difficult unless you can
+change any number of basic assumptions about the world.
 
 * Permissions/Access
 
