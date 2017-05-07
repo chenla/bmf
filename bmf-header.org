@@ -54,7 +54,7 @@
 | BYT | translator   |
 
 
-* Language Group
+* Language
 
  - [[https://en.wikipedia.org/wiki/Lists_of_languages][Lists of languages]] | Wikipedia
  - [[https://en.wikipedia.org/wiki/Ethnologue][Ethnologue]] | Wikipedia
@@ -75,6 +75,48 @@ in determining context, and determine if a fnord is true or not.
 
 
 | LANG | language |
+
+
+* Global Group
+
+| BMF   | BMF version      |
+| ENC   | encoding method  |
+| CB    | Celestial Body   |
+| UNI   | Universe         |
+| UNITS | Measuring System |
+
+
+I'm really not sure about this.  At the moment everything is unicode
+and unicode will be with us for the foreseeable future and is making
+heroic efforts to be global and inclusive (even though they won't
+include Klingon :)).
+
+But it's also something that we need to make explicit -- even it it's
+only set at the top level of each bramble -- though I'm not sure if it
+should be indexed -- because it it's set at the top level, then every
+burr in the bramble inherits it and you will have a triple for each
+and every burr that includes encoding in the dbase.
+
+This becomes a bit of a map-territory thing.  In that if every item in
+the db has the same entry, it is basically useless.
+
+So instead we should perhaps use a trick from TEI and create a group
+that includes assumptions for all burrs in a bramble and each burr
+points to that -- so at least we then only have to do this one time
+and that will be that.  But I suppose that eventually we will have
+brambles that have other encodings that we can't anticipate and that
+they will have to be interoperable with the odd bramble that pops up
+from some long forgotten archive that will need to be converted.  And
+if that bramble is not complete, it would be better to have this info
+included explicitly.  Will this really be /that/ much overhead?
+Afterall, there is an encoding line in how many hundreds of billions
+of web pages....  Same goes for the BMF version number and a handful
+of other things.
+
+But if we do include things like including what star we are on, what
+universe etc -- those don't need to be indexed.  So yes, those can go
+into a non-indexed set of records that are part of the bramble, but
+will not be included in every burr.
 
 
 * Permissions/Access
