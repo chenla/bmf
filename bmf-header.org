@@ -44,21 +44,28 @@
   :END:
 
 
-BY       | author/owner
-BYA      | author
-BYC      | contributor
-BYO      | owner
-BYE      | editor
-BYT      | translator
+* Attribution Group
 
-LANG     | language
+| BY  | author/owner |
+| BYA | author       |
+| BYC | contributor  |
+| BYO | owner        |
+| BYE | editor       |
+| BYT | translator   |
 
 
-RW       | read/write
-RWX      | read/write/execute
-R        | read
-W        | write
-X        | execute
+* Language Group
+
+| LANG | language |
+
+
+* Permissions/Access
+
+| RW  | read/write         |
+| RWX | read/write/execute |
+| R   | read               |
+| W   | write              |
+| X   | execute            |
 
   owner
   group
