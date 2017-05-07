@@ -56,6 +56,16 @@
 
 * Language Group
 
+Language settings ae not binary, they should be a list of languages
+used in the document, with the primary language being first followed
+by other languages used in the Burr.
+
+Usually language settings only determine character sets, fonts and
+whih languages that GUI labels, menus, and documentation are written
+in.  But I hope that it will become an important part of duck tests,
+in determining context, and determine if a fnord is true or not.
+
+
 | LANG | language |
 
 
@@ -70,3 +80,8 @@
   owner
   group
   other
+
+
+
+
+
