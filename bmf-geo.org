@@ -72,13 +72,16 @@ Some of the advantages of UTM coordinates include...
  - [[https://en.wikipedia.org/wiki/Elevation][Elevation]] | Wikipedia
  - [[https://en.wikipedia.org/wiki/Geoid][Geoid]]     | Wikipedia
  - [[https://en.wikipedia.org/wiki/International_Terrestrial_Reference_System][International Terrestrial Reference System]] | Wikipedia
+ - 
+
 
 Elevations are traditionally given on earth as feet or meters above a
 geoid (a geographical reference point) which in earth is usually sea
 level.  Height is measurment measured from the ground, such as a
 building or person, while altitude is typically used for objects which
 are above the ground, but not on it, such as a balloon, airplane or
-satellite .
+satellite.  Depth is a measurement below ground or sea level.
+
 
 Sea leel will change over time -- we need a means of establishing what
 sea level is for a given period of time....
