@@ -101,9 +101,19 @@ perhaps we add the level number:
  
   (+ 15 12)
   (/ 12 4)
- 
+
 Buildings are more about what number floor, rather than how many
 meters above ground.  But the height of floors varies considerably.
+
+This tells you you are on the 4th floor, but not how many floors the
+building has, or how tall the overall building is.
+
+It also doesn't help you know where on the floor you happen to be --
+is it near a wall, the center of a building etc.  Not to mention that
+this is simply a point.  It would be far more useful to know the
+dimensions of the office or room, and then your location in it.  This
+means we now need to give geometric coordinates for bounding boxes for
+what is defined as a first level approximation.
 
 So what are we trying to do here?  Elevation, height and altitude are
 good within each context -- but don't translate very well between each
