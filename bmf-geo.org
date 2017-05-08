@@ -90,16 +90,18 @@ Next -- when you are in a building, you are xx meters above the ground
 which is above sea level.
 
 So if you are in a manmade structure we need a different notation
-
-  15+9m would be 15 meters above sea level and 9 meters above ground
+ 
+  15mE + 9mH would be 15 meters above sea level and 9 meters above ground
   level.
 
 perhaps we add the level number:
 
-  15+9m/4
-
-
-
+  15mE + 9mH =  27 Meters above Sea Level
+  9mH ÷ 4mF = 4th Floor
+ 
+  (+ 15 12)
+  (/ 12 4)
+ 
 Buildings are more about what number floor, rather than how many
 meters above ground.  But the height of floors varies considerably.
 
