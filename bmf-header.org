@@ -104,6 +104,17 @@ So a persona can be associated with a number of public, or semi-public
 roles.  I'd like to be able to associate different sub-reddits I
 subscribe to with different personas and different roles.
 
+How is all this going to work IRL?  Personas are modal -- in that you
+do switch into them when you do do specific activities.  Let's say the
+persona is based on a gmail account -- the system looks for which
+gmail account you are logged into and then your system prompts you to
+use associated accounts on github, facebook, twitter etc that are
+associated with that gmail persona.  That's the easy part.
+
+We then need a more subtle system that looks at 
+
+
+
 
 * Language
 
