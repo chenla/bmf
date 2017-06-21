@@ -11,49 +11,13 @@
 #+INCLUDE: ./inc/head.org
 #+INCLUDE: ./inc/macros.org
 
-{{{breadcrumbs}}}
-
-#+HTML: <div class="outline-2" id="meta">
-| *Author*  | Brad Collins <brad@chenla.org>             |
-| *Date*    | {{{time(%Y-%m-%d %H:%M:%S)}}}              |
-#+HTML: </div>
-
-#+TOC: headlines 4
-
-* About these pages
-
-#+begin_quote
-Burr Metadata Framework (BMF specs and standards)
-#+end_quote
-
-* Recent Activity
-
-Recent change activity on http://github.com/deerpig/deerpig-install
-
-#+BEGIN_SRC sh :exports results :results silent
-githubchart -u deerpig ~/proj/img/contrib.svg
-#+END_SRC
-
-#+RESULTS:
-
-[[~/proj/img/contrib.svg]]
-
-#+HTML: <div class="contrib-legend text-small text-muted" title="A summary of pull requests, issues opened, and commits to the default and gh-pages branches.">
-#+HTML:  <span>Less</span>
-#+HTML:   <ul class="legend">
-#+HTML:     <li style="background-color: #eee"></li>
-#+HTML:     <li style="background-color: #d6e685"></li>
-#+HTML:     <li style="background-color: #8cc665"></li>
-#+HTML:     <li style="background-color: #44a340"></li>
-#+HTML:     <li style="background-color: #1e6823"></li>
-#+HTML:   </ul>
-#+HTML:  <span>More</span>
-#+HTML: </div>
+[[https://img.shields.io/badge/made%20by-Chenla%20Institute-999999.svg?style=flat-square]]
+[[https://img.shields.io/badge/entity-TOC-0072B2.svg?style=flat-square]]
+[[https://img.shields.io/badge/status-stub-CC79A7.svg?style=flat-square]]
+[[https://img.shields.io/badge/tag-v1.0.1-0072B2.svg?style=flat-square]]
 
 * Table of Contents
 
  - [[./bmf-header.org][Header]]
-
  - [[./bmf-geo.org][Geographic Encoding]]
-
  - [[./bmf-notes.org][Notes]]
