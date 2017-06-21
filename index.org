@@ -12,6 +12,7 @@
 #+INCLUDE: ./inc/macros.org
 
 [[https://img.shields.io/badge/made%20by-Chenla%20Institute-999999.svg?style=flat-square]]
+[[https://img.shields.io/badge/category-deploy-0072B2.svg?style=flat-square]]
 [[https://img.shields.io/badge/entity-TOC-0072B2.svg?style=flat-square]]
 [[https://img.shields.io/badge/status-stub-CC79A7.svg?style=flat-square]]
 [[https://img.shields.io/badge/tag-v1.0.1-0072B2.svg?style=flat-square]]
