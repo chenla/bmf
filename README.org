@@ -1,0 +1,27 @@
+* Burr Metadata Framework
+
+[[https://img.shields.io/badge/made%20by-Chenla%20Institute-999999.svg?style=flat-square]] 
+[[https://img.shields.io/badge/category-deploy-0072B2.svg?style=flat-square]]
+[[https://img.shields.io/badge/licence-MIT%2FCC%20BY--SA%204.0-000000.svg?style=flat-square]]
+
+
+The Burr Metadata Framework (BMF) is the original name given for a set
+of specifications for what we call /semantic storage/.  The goal was
+to create very long term electronic storage systems that preserved the
+surrounding context of what was being stored as well as the file being
+stored.  This would guard against /semantic rot/ where information
+looses it's meaning as the surrounding context erodes over time.
+Names of people, places and events get lost over time.
+
+We are in the process of transitioning BMF from an archival format, to
+a active living format that preserves context as it changes over
+time.  This will become part of the Saltmine Platform.  We're still
+not sure if we will be keeping the name, as many of the names in
+Saltmine overlap with concepts in BMF.   For example, in BMF, a
+/bramble/ is functionally equivilent to a /hoard/ in Saltmine.
+
+A paper was published describing BMF in 2006 for the Extreme Markup
+Conference in Montreal.  The spec has since undergone three major
+revisions, though they were never published.  This repo will collect
+much of that unpublished material to create several specifications
+that will be used for Saltmine.
