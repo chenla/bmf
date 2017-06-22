@@ -3,19 +3,17 @@
 #+STARTUP: showall
 #+PROPERTY: filename
   :PROPERTIES:
-  :Name: /home/deerpig/proj/chenla/bmf/index.org
-  :Created: 2017-02-06T09:41@Prek Leap (11.642600N-104.919210W)
-  :ID: c10d3a29-5475-45c7-a604-707d89f426c5
-  :Category: deploy
+  :Name:     /home/deerpig/proj/chenla/bmf/index.org
+  :Created:  2017-02-06T09:41@Prek Leap (11.642600N-104.919210W)
+  :ID:       c10d3a29-5475-45c7-a604-707d89f426c5
+  :Class:    deploy
   :Entity:   TOC
   :Status:   wip
   :END:
-#+INCLUDE: ./inc/head.org
-#+INCLUDE: ./inc/macros.org
 
 [[https://img.shields.io/badge/made%20by-Chenla%20Institute-999999.svg?style=flat-square]]
-[[https://img.shields.io/badge/category-deploy-0072B2.svg?style=flat-square]]
-[[https://img.shields.io/badge/entity-TOC-0072B2.svg?style=flat-square]]
+[[https://img.shields.io/badge/class-deploy-0072B2.svg?style=flat-square]]
+[[https://img.shields.io/badge/type-TOC-0072B2.svg?style=flat-square]]
 [[https://img.shields.io/badge/status-wip-D55E00.svg?style=flat-square]]
 [[https://img.shields.io/badge/licence-MIT%2FCC%20BY--SA%204.0-000000.svg?style=flat-square]]
 
