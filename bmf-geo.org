@@ -1,30 +1,32 @@
 #   -*- mode: org; fill-column: 60 -*-
+
 #+TITLE: Geographic Encoding (BMF Documentation)
 #+STARTUP: showall
-#+PROPERTY: filename
-  :PROPERTIES:
-  :Name:      /home/deerpig/proj/chenla/bmf/bmf-geo.org
-  :Created:   2017-05-06T18:29@Prek Leap (11.642600N-104.919210W)
-  :ID:        2e07d5c2-d057-4a6f-9314-11c18ab2294c
-  :VER:       547342248.778280649
-  :GEO:       48P-491193-1287029-15
-  :BXID:      LXD0-1288
-  :TS:        chenla.org/ts/bmf
-  :CUSTOM_ID: Geographic_Encoding_(BMF Documentation)
-  :END:
-#+INCLUDE: ./inc/head.org
-#+INCLUDE: ./inc/macros.org
-
-{{{breadcrumbs}}}
-
-#+HTML: <div class="outline-2" id="meta">
-| *Author*  | Brad Collins <brad@chenla.org>             |
-| *Date*    | {{{time(%Y-%m-%d %H:%M:%S)}}}              |
-#+HTML: </div>
-
 #+TOC: headlines 4
+#+PROPERTY: filename
+:PROPERTIES:
+:CUSTOM_ID: 
+:Name:      /home/deerpig/proj/chenla/bmf/bmf-geo.org
+:Created:   2017-05-06T18:29@Prek Leap (11.642600N-104.919210W)
+:ID:        2e07d5c2-d057-4a6f-9314-11c18ab2294c
+:VER:       551917611.509981931
+:GEO:       48P-491193-1287029-15
+:BXID:      proj:QGX1-1747
+:Class:     deploy
+:Type:      work
+:Status:    stub
+:Licence:   MIT/CC BY-SA 4.0
+:END:
+
+[[https://img.shields.io/badge/made%20by-Chenla%20Institute-999999.svg?style=flat-square]] 
+[[https://img.shields.io/badge/class-deploy-0072B2.svg?style=flat-square]]
+[[https://img.shields.io/badge/type-work-0072B2.svg?style=flat-square]]
+[[https://img.shields.io/badge/status-wip-D55E00.svg?style=flat-square]]
+[[https://img.shields.io/badge/licence-MIT%2FCC%20BY--SA%204.0-000000.svg?style=flat-square]]
+
 
 * Introduction
+
 
 http://www.latlong.net/lat-long-utm.html
 https://www.daftlogic.com/sandbox-google-maps-find-altitude.htm
