@@ -1,0 +1,44 @@
+
+* Main Header
+
+Introductory Text
+
+** Subheading
+
+Main body of text
+
+*** aside (title is label)   :type:
+  :PROPERTIES:
+  :CUSTOM_ID: _()
+  :Created:   2017-08-04T10:53@Prek Leap (11.642600N-104.919210W)
+  :ID:        9362f233-a427-4d85-9fd9-64db2a716366
+  :VER:       555090881.016844054
+  :GEO:       48P-491193-1287029-15
+  :BXID:      hord:DKN7-8627
+  :Class:     primer
+  :Type:      concept 
+  :Status:    stub 
+  :Licence:   MIT/CC BY-SA 4.0
+  :END:
+  :TREE:
+  :UF:
+  :BTI+:  
+  :BT:
+  :RT:
+  :END:
+
+#+begin_scope  :abstract:
+This is the abstract, summary, TL;DR
+#+end_scope
+
+Body of text
+
+#+begin_ref 
+list of references
+
+  - :ref: bxid/doi/bibtex ref
+  - :footnote: [1] text
+  - :commentary: [para] text
+  - :gloss: [match string] text
+  - :badge: [src][link][caption]
+#+end_ref
