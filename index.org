@@ -1,5 +1,6 @@
 #   -*- mode: org; fill-column: 60 -*-
 #+STARTUP: showall
+#+TITLE:  BMF | TOC
 :PROPERTIES:
 :CUSTOM_ID: 
 :Name:      /home/deerpig/proj/chenla/bmf/index.org
