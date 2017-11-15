@@ -30,15 +30,16 @@
 
 
 #+begin_quote
-Cataloging records come in three types: 1) Bibliographic records,
-which contain information describing a book, serial, sound recording,
-videorecording, etc.; 2) Authority records, which contain standardized
-forms for names, titles, and subjects that are used on bibliographic
-records and provide cross references in catalogs; 3) Holdings records,
-which contain information about whether an institution holds or can
-provide access to bibliographic items, in both physical and electronic
-forms, which parts of a bibliographic item it holds, and where to find
-them.
+Cataloging records come in three types: 1) Bibliographic
+records, which contain information describing a book,
+serial, sound recording, videorecording, etc.; 2) Authority
+records, which contain standardized forms for names, titles,
+and subjects that are used on bibliographic records and
+provide cross references in catalogs; 3) Holdings records,
+which contain information about whether an institution holds
+or can provide access to bibliographic items, in both
+physical and electronic forms, which parts of a
+bibliographic item it holds, and where to find them.
 
 -- [[https://www.loc.gov/marc/umh/UMHpt1-6.html][Understanding MARC Holdings Records]] | LOC
 #+end_quote
@@ -148,45 +149,51 @@ and stay in sync.
 
 * Authority Records
 
-inverting names makes no sense in electronic records, what does make
-sense is to break names into parts -- and at least identify the family
-or collective name.  The family name is a abberation of the state as a
-means of making people as James Scott likes to say /legible/ to the
-state so that they can be better controlled.  There are still pockets
-in the world where there are no cannonical names for people in day to
-day life, and that a name recorded on a state record and used as an id
-might be a poor choice for use as a primary identifier.  Names change
-over time.  A childhood friend of mine was called "Ricky" until he
-entered university and preferred to be called "Richard" thereafter.
-My father was known as "Bud" to family friends and colleagues, and
-"Uncle Buddy" to my nieces and nephews, though his baptismal name and
-state name was "George".  I am called by the first half of my middle
-name "Brad" though my state name is "James Bradford".  Authority
-Records need to become more flexible with names.  There is no way of
-knowing how names will change over the next five hundred years, so it
-is important we find a better way of dealing with them today and
-recognize that a name is a label that may or may not change over time.
+inverting names makes no sense in electronic records, what
+does make sense is to break names into parts -- and at least
+identify the family or collective name.  The family name is
+a abberation of the state as a means of making people as
+James Scott likes to say /legible/ to the state so that they
+can be better controlled.  There are still pockets in the
+world where there are no cannonical names for people in day
+to day life, and that a name recorded on a state record and
+used as an id might be a poor choice for use as a primary
+identifier.  Names change over time.  A childhood friend of
+mine was called "Ricky" until he entered university and
+preferred to be called "Richard" thereafter.  My father was
+known as "Bud" to family friends and colleagues, and "Uncle
+Buddy" to my nieces and nephews, though his baptismal name
+and state name was "George".  I am called by the first half
+of my middle name "Brad" though my state name is "James
+Bradford".  Authority Records need to become more flexible
+with names.  There is no way of knowing how names will
+change over the next five hundred years, so it is important
+we find a better way of dealing with them today and
+recognize that a name is a label that may or may not change
+over time.
 
 * Subject Records
 
-Subject records need to change as well -- subject names change in
-meaning over time, sometimes dramatically.  So it is important that
-any subject heading is tired to a definition and further placed into
-the context of where and when it was used that way.  A subject heading
-should be capable of have multiple definitions as we do in
+Subject records need to change as well -- subject names
+change in meaning over time, sometimes dramatically.  So it
+is important that any subject heading is tired to a
+definition and further placed into the context of where and
+when it was used that way.  A subject heading should be
+capable of have multiple definitions as we do in
 dictionaries.
 
 * Place Records
  
-Place names in bibliographic records need to change so that it points
-to lat lon coordinates on a planet, and then link to the place name
-that that location used at the time of publication.
+Place names in bibliographic records need to change so that
+it points to lat lon coordinates on a planet, and then link
+to the place name that that location used at the time of
+publication.
 
-Over time this will change as well -- in this way, the place of
-publication for Bradford's "Of Plymouth Plantation" would be
-"Massachusetts Bay Colony" but the place for the "Mayflower Compact"
-would be an unnamed location that is called "Plymouth, Massachusetts"
-today.
+Over time this will change as well -- in this way, the place
+of publication for Bradford's "Of Plymouth Plantation" would
+be "Massachusetts Bay Colony" but the place for the
+"Mayflower Compact" would be an unnamed location that is
+called "Plymouth, Massachusetts" today.
 
 * Document Source and Rendered
 
@@ -214,29 +221,32 @@ the record that describes the image.
 
 * Record Structure Notes
 
-/works/ are mutually exclusive and are not bound to a physical object
+/works/ are mutually exclusive and are not bound to a
+physical object
 
- - an introduction is a separate work from the main body of text
-   it introduces.
- - decorative illustrations are a separate work from the work
-   they illustrate
+ - an introduction is a separate work from the main body of
+   text it introduces.
+ - decorative illustrations are a separate work from the
+   work they illustrate
  - critical notes, comentary etc are a separate works.
 
 
 /expressions/ can be made up of one or more works
 
-minor changes to a work -- that can be summed up in a list of a couple
-pages in length should be ignored when determining if something should
-be a separate expression or not.  Those differences are important, but
-not for cataloging.  They can eventually be incorporated as diffs from
-the reference text.  This will eventually be automated and will make
-life for scholars far easier and identify how errors and corrections
-propagate through editions over time.
+minor changes to a work -- that can be summed up in a list
+of a couple pages in length should be ignored when
+determining if something should be a separate expression or
+not.  Those differences are important, but not for
+cataloging.  They can eventually be incorporated as diffs
+from the reference text.  This will eventually be automated
+and will make life for scholars far easier and identify how
+errors and corrections propagate through editions over time.
 
 
 /manifetations/ are specific editions of an expression
 
-/items/ are specific physical or electronic instances of a manifestation
+/items/ are specific physical or electronic instances of a
+manifestation
 
 
   - Work 1:  A Christmas Carol
