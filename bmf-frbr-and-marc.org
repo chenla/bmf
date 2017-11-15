@@ -92,26 +92,59 @@ work.
    record | Karen Coyle (2004)
 #+end_quote
 
+As Karen Coyle mentions, this implies that when displaying
+records, the broader metadata should be included in records
+below it.
+
+
+* Cover Art 
+
+cover art is commonly displayed in electronic retrieval
+(mentioned by Coyle)
 
 * MARC Assumptions
 
-The ubiquitious MARC record was built on a number of assumptions of
-how we understood the world at the time that it was devised.  Many of
-those assumptions we wrong, or a product of it's meliu that does not
-reflect the bibliographic information of an item at the time it was
-first created or published.  We are no longer restricted to what fits
-on a 3X5" index card, or soon, even the time restraints of catalogers.
-For new works, cataloging is often done by publishers before something
-is published.  The internet also makes it easy for libraries to share
-records so if something has been cataloged once the record can be used
-by everyone.
+The ubiquitious MARC record was built on a number of
+assumptions of how we understood the world at the time that
+it was devised.  Many of those assumptions we wrong, or a
+product of it's meliu that does not reflect the
+bibliographic information of an item at the time it was
+first created or published.  We are no longer restricted to
+what fits on a 3X5" index card, or soon, even the time
+restraints of catalogers.  For new works, cataloging is
+often done by publishers before something is published.  The
+internet also makes it easy for libraries to share records
+so if something has been cataloged once the record can be
+used by everyone.
+
+MARC has been around so long, and has been used to catalog
+pretty much everything, that the cost of moving to another
+system will be high.  This is why there have been so many
+attempt at FRBRizing MARC records.  From what I've read, the
+results have been rather miserable.
+
+It doesn't look like MARC records have enough information
+about works to make an effective FRBR system.  Importing
+MARC data can obviously be done to create templates, but for
+FRBR to work catalogers will have to go back to works and
+collect additional information.
+
+This or something like this will have to happen, but the
+pain points are rather large.  The only way for this to work
+is to organize a crowdsourced project so that cataloging
+will only have to be done once for each work.  Even then it
+will be a monumental challenge.
+
+Eventually AI will be able to help out and take over a lot
+of the work but this is still some time off.  
 
 * Version Control
 
-Records need to incorporate version control -- so that as records
-change over time, previous records are still available for use in
-certain contexts.  Version control also makes it easier for changes to
-propagate around the world and stay in sync.
+Records need to incorporate version control -- so that as
+records change over time, previous records are still
+available for use in certain contexts.  Version control also
+makes it easier for changes to propagate around the world
+and stay in sync.
 
 * Authority Records
 
