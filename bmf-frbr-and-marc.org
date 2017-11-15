@@ -61,6 +61,8 @@ them.
 #+end_src
 
 
+* The Art of Reading Bibliographies
+
 After reading Eco's book /How to Write a Thesis/ it began to dawn on
 me that bibliographies are far more than lists of books consulted or
 read.  They are a subtle means of gauging the validity of a work and
@@ -70,14 +72,28 @@ where something was cited, and then do the same for all works on the
 same topic, you would get a very interesting understanding how a
 subject is understood over time.
 
--------
+* Cascade
 
 FRBR metadata should cascade so that information is inherieted from
 the hierarchical record above it and that information can be
 superceded by different information which is then inherited by records
 below it.
 
--------
+#+begin_quote
+Viewing the FRBR design as object- oriented, however, allows
+us to make use of the concept of ``inheritance'' in which
+qualities and data elements of higher levels are inherited
+by the linked levels below them. In this way, every
+expression inherits the elements associated with the work,
+and manifestations inherit those of the expression and the
+work.
+
+-- Future considerations: the functional library systems
+   record | Karen Coyle (2004)
+#+end_quote
+
+
+* MARC Assumptions
 
 The ubiquitious MARC record was built on a number of assumptions of
 how we understood the world at the time that it was devised.  Many of
@@ -90,14 +106,14 @@ is published.  The internet also makes it easy for libraries to share
 records so if something has been cataloged once the record can be used
 by everyone.
 
--------
+* Version Control
 
 Records need to incorporate version control -- so that as records
 change over time, previous records are still available for use in
 certain contexts.  Version control also makes it easier for changes to
 propagate around the world and stay in sync.
 
--------
+* Authority Records
 
 inverting names makes no sense in electronic records, what does make
 sense is to break names into parts -- and at least identify the family
@@ -118,7 +134,7 @@ knowing how names will change over the next five hundred years, so it
 is important we find a better way of dealing with them today and
 recognize that a name is a label that may or may not change over time.
 
--------
+* Subject Records
 
 Subject records need to change as well -- subject names change in
 meaning over time, sometimes dramatically.  So it is important that
@@ -127,7 +143,7 @@ the context of where and when it was used that way.  A subject heading
 should be capable of have multiple definitions as we do in
 dictionaries.
 
--------
+* Place Records
  
 Place names in bibliographic records need to change so that it points
 to lat lon coordinates on a planet, and then link to the place name
@@ -139,11 +155,9 @@ publication for Bradford's "Of Plymouth Plantation" would be
 would be an unnamed location that is called "Plymouth, Massachusetts"
 today.
 
--------
 
 
-
--------
+* Record Structure Notes
 
 /works/ are mutually exclusive and are not bound to a physical object
 
