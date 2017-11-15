@@ -155,7 +155,29 @@ publication for Bradford's "Of Plymouth Plantation" would be
 would be an unnamed location that is called "Plymouth, Massachusetts"
 today.
 
+* Document Source and Rendered
 
+Bibliographic records today make no distinction between the
+source code that a manifestation is generated from.
+
+Blocks of set type would be considered source, as would
+photographic negatives.  But today the source could be in a
+variety of markup systems from html, XML, TEI, LaTeX or even
+a proprietry format such as MS Word or Adobe's InDesign.
+
+This source code, when available should be linked to the
+expression, because it is used to generate the
+manifestation.
+
+But in another way, the source file is also an item, that
+points to something that you can download a copy of.
+
+The best way to deal with this is to create a new record
+time that is a type of item record for src files which are
+linked to expressions and not manifestations.
+
+Wikipedia points links to images, not to the image, but to
+the record that describes the image.
 
 * Record Structure Notes
 
