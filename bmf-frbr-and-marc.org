@@ -64,21 +64,22 @@ bibliographic item it holds, and where to find them.
 
 * The Art of Reading Bibliographies
 
-After reading Eco's book /How to Write a Thesis/ it began to dawn on
-me that bibliographies are far more than lists of books consulted or
-read.  They are a subtle means of gauging the validity of a work and
-the biases at play that determine what was put in and what was left
-out.  If you created a graph database of surrounding keyword text
-where something was cited, and then do the same for all works on the
-same topic, you would get a very interesting understanding how a
+After reading Eco's book /How to Write a Thesis/ it began to
+dawn on me that bibliographies are far more than lists of
+books consulted or read.  They are a subtle means of gauging
+the validity of a work and the biases at play that determine
+what was put in and what was left out.  If you created a
+graph database of surrounding keyword text where something
+was cited, and then do the same for all works on the same
+topic, you would get a very interesting understanding how a
 subject is understood over time.
 
 * Cascade
 
-FRBR metadata should cascade so that information is inherieted from
-the hierarchical record above it and that information can be
-superceded by different information which is then inherited by records
-below it.
+FRBR metadata should cascade so that information is
+inherieted from the hierarchical record above it and that
+information can be superceded by different information which
+is then inherited by records below it.
 
 #+begin_quote
 Viewing the FRBR design as object- oriented, however, allows
