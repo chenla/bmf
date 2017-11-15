@@ -220,6 +220,60 @@ linked to expressions and not manifestations.
 Wikipedia points links to images, not to the image, but to
 the record that describes the image.
 
+* Element/Key/Field names
+
+Every time I look at metadata schemes I'm horrified at how
+clunky the naming schemes are and how all of them fall
+terribly short of what they should be doing.  This has
+bothered me for as long as I can remember and has tripped me
+up over and over and prevented putting BMF into use.
+
+Aristotle was into categories in a big way.  But they are so
+unweildy and complex that I keep thinking that there must be
+a more elegant way of doing these things without coming up
+with formal ontologies and controlled vocabularies.
+
+I used to argue that people can agree on what to call
+something but not what it means.  Agreeing on a label for
+something is the cornerstone of communication.  But those
+labels are different in different languages, and the labels
+drift over time.
+
+Eco's take on bibliographic information is on how to present
+enough information for people to know what is being
+described and to be able to find it.
+
+Electronic records allow you to do much more -- so that the
+records potentially are valuable as data in their own right.
+
+BMF tried to move all labels into attributes instead of
+using labels as element names.  Elements are baked in and
+aren't very flexible.  But an attribute is something else,
+it is just a label.... which is not a hard coded item in a
+controlled vocabulary.
+
+What if the controlled vocabulary was just made up of a list
+of unique ids that you can match up with any label you
+want.  The id is associated with a definition.  The
+definition can be as long and detailed as you want -- and
+there should be tests that you can run on the value given
+for that id that given an indication if the value matches
+or belongs to that key.
+
+Then we can be far more flexible about key names.  They can
+be verbose or cryptic or anything inbetween and they don't
+matter because they are just unique labels within a set of
+records that are consistent and point to a definition.
+
+Definitions are described as having thesurus relationships
+to other concepts -- so the concepts are a DAG -- very
+useful.
+
+Anyone can design a label set and map it to the id scheme.
+
+
+
+
 * Record Structure Notes
 
 /works/ are mutually exclusive and are not bound to a
