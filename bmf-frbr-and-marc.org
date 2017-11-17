@@ -5,7 +5,6 @@
 #+TOC: headlines 4
 #+PROPERTY: filename
 #+AUTHOR: My Name
----#+ID: be4151b5-6cba-4cbb-898b-170c585f292e
 
 [[https://img.shields.io/badge/made%20by-Chenla%20Institute-999999.svg?style=flat-square]] 
 [[https://img.shields.io/badge/class-deploy-0072B2.svg?style=flat-square]]
@@ -31,7 +30,6 @@
 (org-entry-get (point) "BXID")
 (org-buffer-property-keys)
 (setq org-use-property-inheritance t)
-
 (org-entry-add-to-multivalued-property (point) Type "time")
 
  #+BEGIN_SRC emacs-lisp
@@ -62,8 +60,6 @@
 :PROPERTIES:
 :ID:       6675e25d-d370-4545-9e0f-57e4651784ff
 :END:
-
-
 
 (org-entry-get nil "ID")
 (nth 0 (org-entry-properties))
@@ -148,6 +144,29 @@ below it.
 
 cover art is commonly displayed in electronic retrieval
 (mentioned by Coyle)
+
+but how to handle it, do we go full tilt boogie and crete a
+burr for it  (as we should)?  And should  the cover art be
+part of the manifestation?
+
+It is packaged with ebooks, but it is a wrapper of a print
+book which is both part and not part of the book itself.  It
+does include information that may not be in the book
+
+I think it does -- it's not uncommon to mention the artist
+who has made cover art for a book.  The cover art is part
+of the manifestatioon and not the expression.  It can be
+rendered in multiple formats etc.  So I guess that's what we
+do...
+
+** Dust Jackets
+
+So the next question is how to deal with not just the cover
+art but the whole dust jacket which includes text, id's
+price information, blurbs and summary of the contents.  This
+will be different for different manifestations -- so a dust
+jacket for a hardcover book is not the same as the cover of
+a paperback book.
 
 ** MARC Assumptions
 
