@@ -4,6 +4,16 @@
 #+STARTUP: showall
 #+TOC: headlines 4
 #+PROPERTY: filename
+#+AUTHOR: My Name
+---#+ID: be4151b5-6cba-4cbb-898b-170c585f292e
+
+[[https://img.shields.io/badge/made%20by-Chenla%20Institute-999999.svg?style=flat-square]] 
+[[https://img.shields.io/badge/class-deploy-0072B2.svg?style=flat-square]]
+[[https://img.shields.io/badge/type-work-0072B2.svg?style=flat-square]]
+[[https://img.shields.io/badge/status-wip-D55E00.svg?style=flat-square]]
+[[https://img.shields.io/badge/licence-MIT%2FCC%20BY--SA%204.0-000000.svg?style=flat-square]]
+
+* FRBR & MARC
 :PROPERTIES:
 :CUSTOM_ID: 
 :Name:      /home/deerpig/proj/chenla/bmf/bmf-frbr-and-marc.org
@@ -18,15 +28,50 @@
 :Licence:   MIT/CC BY-SA 4.0
 :END:
 
-[[https://img.shields.io/badge/made%20by-Chenla%20Institute-999999.svg?style=flat-square]] 
-[[https://img.shields.io/badge/class-deploy-0072B2.svg?style=flat-square]]
-[[https://img.shields.io/badge/type-work-0072B2.svg?style=flat-square]]
-[[https://img.shields.io/badge/status-wip-D55E00.svg?style=flat-square]]
-[[https://img.shields.io/badge/licence-MIT%2FCC%20BY--SA%204.0-000000.svg?style=flat-square]]
+(org-entry-get (point) "BXID")
+(org-buffer-property-keys)
+(setq org-use-property-inheritance t)
+
+(org-entry-add-to-multivalued-property (point) Type "time")
+
+ #+BEGIN_SRC emacs-lisp
+;; Definition of `org-global-props' that could go into your init file:
+(defun org-global-props (&optional property buffer)
+  "Get the plists of global org properties of current buffer."
+  (interactive)
+  (unless property (setq property "PROPERTY"))
+  (with-current-buffer (or buffer (current-buffer))
+    (org-element-map (org-element-parse-buffer) 'keyword (lambda (el) (when (string-match property (org-element-property :key el)) el)))))
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Stuff for your org-file:
+(mapcar (lambda (prop)
+      (list (org-element-property :key prop)
+        (org-element-property :value prop)))
+    (org-global-props "\\(AUTHOR\\|TITLE\\)"))
+  #+END_SRC
+
+  #+RESULTS:
+  | TITLE  | FRBR & MARC |
+  | AUTHOR | My Name     |
+
+(org-global-props "ID")
+(org-element-property :properties ID)
 
 
-* Introduction
+** Introduction
+:PROPERTIES:
+:ID:       6675e25d-d370-4545-9e0f-57e4651784ff
+:END:
 
+
+
+(org-entry-get nil "ID")
+(nth 0 (org-entry-properties))
+(nth 4 (org-heading-components))
+(org-entry-get nil "Licence")
+
+(org-entry-get (point) "BXID")
+(org-buffer-property-keys)
 
 
 #+begin_quote
@@ -62,7 +107,7 @@ bibliographic item it holds, and where to find them.
 #+end_src
 
 
-* The Art of Reading Bibliographies
+** The Art of Reading Bibliographies
 
 After reading Eco's book /How to Write a Thesis/ it began to
 dawn on me that bibliographies are far more than lists of
@@ -74,7 +119,7 @@ was cited, and then do the same for all works on the same
 topic, you would get a very interesting understanding how a
 subject is understood over time.
 
-* Cascade
+** Cascade
 
 FRBR metadata should cascade so that information is
 inherieted from the hierarchical record above it and that
@@ -99,12 +144,12 @@ records, the broader metadata should be included in records
 below it.
 
 
-* Cover Art 
+** Cover Art 
 
 cover art is commonly displayed in electronic retrieval
 (mentioned by Coyle)
 
-* MARC Assumptions
+** MARC Assumptions
 
 The ubiquitious MARC record was built on a number of
 assumptions of how we understood the world at the time that
@@ -140,7 +185,7 @@ will be a monumental challenge.
 Eventually AI will be able to help out and take over a lot
 of the work but this is still some time off.  
 
-* Version Control
+** Version Control
 
 Records need to incorporate version control -- so that as
 records change over time, previous records are still
@@ -148,7 +193,7 @@ available for use in certain contexts.  Version control also
 makes it easier for changes to propagate around the world
 and stay in sync.
 
-* Authority Records
+** Authority Records
 
 inverting names makes no sense in electronic records, what
 does make sense is to break names into parts -- and at least
@@ -173,7 +218,7 @@ we find a better way of dealing with them today and
 recognize that a name is a label that may or may not change
 over time.
 
-* Subject Records
+** Subject Records
 
 Subject records need to change as well -- subject names
 change in meaning over time, sometimes dramatically.  So it
@@ -183,7 +228,7 @@ when it was used that way.  A subject heading should be
 capable of have multiple definitions as we do in
 dictionaries.
 
-* Place Records
+** Place Records
  
 Place names in bibliographic records need to change so that
 it points to lat lon coordinates on a planet, and then link
@@ -196,7 +241,7 @@ be "Massachusetts Bay Colony" but the place for the
 "Mayflower Compact" would be an unnamed location that is
 called "Plymouth, Massachusetts" today.
 
-* Document Source and Rendered
+** Document Source and Rendered
 
 Bibliographic records today make no distinction between the
 source code that a manifestation is generated from.
@@ -220,7 +265,7 @@ linked to expressions and not manifestations.
 Wikipedia points links to images, not to the image, but to
 the record that describes the image.
 
-* Element/Key/Field names
+** Element/Key/Field names
 
 Every time I look at metadata schemes I'm horrified at how
 clunky the naming schemes are and how all of them fall
@@ -271,10 +316,7 @@ useful.
 
 Anyone can design a label set and map it to the id scheme.
 
-
-
-
-* Record Structure Notes
+** Record Structure Notes
 
 /works/ are mutually exclusive and are not bound to a
 physical object
