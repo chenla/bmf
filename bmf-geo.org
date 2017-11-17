@@ -4,6 +4,14 @@
 #+STARTUP: showall
 #+TOC: headlines 4
 #+PROPERTY: filename
+
+[[https://img.shields.io/badge/made%20by-Chenla%20Institute-999999.svg?style=flat-square]] 
+[[https://img.shields.io/badge/class-deploy-0072B2.svg?style=flat-square]]
+[[https://img.shields.io/badge/type-work-0072B2.svg?style=flat-square]]
+[[https://img.shields.io/badge/status-wip-D55E00.svg?style=flat-square]]
+[[https://img.shields.io/badge/licence-MIT%2FCC%20BY--SA%204.0-000000.svg?style=flat-square]]
+
+* Geographic Encoding (BMF Documentation)
 :PROPERTIES:
 :CUSTOM_ID: 
 :Name:      /home/deerpig/proj/chenla/bmf/bmf-geo.org
@@ -18,15 +26,7 @@
 :Licence:   MIT/CC BY-SA 4.0
 :END:
 
-[[https://img.shields.io/badge/made%20by-Chenla%20Institute-999999.svg?style=flat-square]] 
-[[https://img.shields.io/badge/class-deploy-0072B2.svg?style=flat-square]]
-[[https://img.shields.io/badge/type-work-0072B2.svg?style=flat-square]]
-[[https://img.shields.io/badge/status-wip-D55E00.svg?style=flat-square]]
-[[https://img.shields.io/badge/licence-MIT%2FCC%20BY--SA%204.0-000000.svg?style=flat-square]]
-
-
-* Introduction
-
+** Introduction
 
 http://www.latlong.net/lat-long-utm.html
 https://www.daftlogic.com/sandbox-google-maps-find-altitude.htm
@@ -69,7 +69,7 @@ Some of the advantages of UTM coordinates include...
  zone[-]easting[-]northing[-]elevation
 
 
-* Elevation
+** Elevation
 
  - [[https://en.wikipedia.org/wiki/Elevation][Elevation]] | Wikipedia
  - [[https://en.wikipedia.org/wiki/Geoid][Geoid]]     | Wikipedia
