@@ -1,6 +1,13 @@
 #   -*- mode: org; fill-column: 60 -*-
 #+STARTUP: showall
 
+
+[[https://img.shields.io/badge/made%20by-Chenla%20Institute-999999.svg?style=flat-square]] 
+[[https://img.shields.io/badge/class-deploy-0072B2.svg?style=flat-square]]
+[[https://img.shields.io/badge/type-readme-0072B2.svg?style=flat-square]]
+[[https://img.shields.io/badge/status-wip-D55E00.svg?style=flat-square]]
+[[https://img.shields.io/badge/licence-MIT%2FCC%20BY--SA%204.0-000000.svg?style=flat-square]]
+
 * Burr Metadata Framework
   :PROPERTIES:
   :CUSTOM_ID: 
@@ -15,13 +22,6 @@
   :Status:    wip 
   :Licence:   MIT/CC BY-SA 4.0
   :END:
-
-[[https://img.shields.io/badge/made%20by-Chenla%20Institute-999999.svg?style=flat-square]] 
-[[https://img.shields.io/badge/class-deploy-0072B2.svg?style=flat-square]]
-[[https://img.shields.io/badge/type-readme-0072B2.svg?style=flat-square]]
-[[https://img.shields.io/badge/status-wip-D55E00.svg?style=flat-square]]
-[[https://img.shields.io/badge/licence-MIT%2FCC%20BY--SA%204.0-000000.svg?style=flat-square]]
-
 
 The Burr Metadata Framework (BMF) is the original name given for a set
 of specifications for what we call /semantic storage/.  The goal was
