@@ -43,3 +43,10 @@ Conference in Montreal.  The spec has since undergone three major
 revisions, though they were never published.  This repo will collect
 much of that unpublished material to create several specifications
 that will be used for Saltmine.
+
+
+--- 
+
+*NOTE*: The primary repo is @ [[http://git.chenla.org/hoard/bmf]] 
+Please submit pull requests and issues there.  A read
+only-mirror is maintained @ [[https://github.com/chenla/bmf]]
