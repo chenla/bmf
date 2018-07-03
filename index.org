@@ -31,24 +31,21 @@
 
  - [[./bmf-frbr-and-marc.org][FRBR & MARC]]
 
-In org-syntax
-
-   [ [quad:subject :rel "" :
-
 
 #+begin_src emacs-lisp
 
 '("ts:subject" "ts:predicate" "ts: object" 
-  ((bmf:id     . "uuid" )  ;; uuid+ver (microseconds) 
-   (bmf:owner  . "value")  ;; valid identity, label, or url 
-   (bmf:group  . "group")  ;; groups who have access
-   (bmf:stamp  . "stamp")  ;; time-place stamp
-   (bmf:agent  . "agent")  ;; entity that created quad
-   (bmf:action . "action") ;; action used to create quad
-   (bmf:src    . "source") ;; where triple originated
-   (bmf:access . "OOGGWW") ;; nix style permissions
-   (bmf:prob   . "xxx")    ;; probablistic-weight
-   (bmf:conf   . "xxx")    ;; confidence-weight
+  ((bmf:id     . "uuid" )     ;; uuid+ver (microseconds) 
+   (bmf:owner  . "value")     ;; valid identity, label, or url 
+   (bmf:group  . "group")     ;; groups who have access
+   (bmf:stamp  . "stamp")     ;; time-place stamp
+   (bmf:agent  . "agent")     ;; entity that created quad
+   (bmf:action . "action")    ;; action used to create quad
+   (bmf:src    . "source")    ;; where triple originated
+   (bmf:cite   . "citataton") ;; authority src is citing
+   (bmf:access . "OOGGWW")    ;; nix style permissions
+   (bmf:prob   . "xxx")       ;; probablistic-weight
+   (bmf:conf   . "xxx")       ;; confidence-weight
    ))
 #+end_src
 
@@ -58,4 +55,26 @@ Weights:
  -  probablistic-weight 
 
 Can we use positive numbers to indicate degree of truth and negative
-to indicate degree of false?
+to indicate degree of falsehood?
+
+** inline markup
+
+markup statements within a text
+
+
+
+Prai Yut was born on [20 feb 2044] in [Bangkok-Phuket
+Hospital] at 9:22 in the evening.
+
+   So:
+        sub:  per:PraiYut_Jaksan 
+        pre:  rel:born
+        obj:  dt:2044-2-20:21:22
+        src:  self
+
+        sub:  per:PraiYut_Jaksan
+        pre:  rel:born
+        obj:  geo:Bangkok_Phuket_Hospital
+        src:  self
+
+Always try to place the markup on the object.
