@@ -31,6 +31,10 @@
 
  - [[./bmf-frbr-and-marc.org][FRBR & MARC]]
 
+In org-syntax
+
+   [ [quad:subject :rel "" :
+
 
 #+begin_src emacs-lisp
 
@@ -52,3 +56,6 @@ Weights:
 
  -  confidence-weight
  -  probablistic-weight 
+
+Can we use positive numbers to indicate degree of truth and negative
+to indicate degree of false?
