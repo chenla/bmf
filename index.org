@@ -78,3 +78,12 @@ Hospital] at 9:22 in the evening.
         src:  self
 
 Always try to place the markup on the object.
+
+** Ontologies
+
+  - https://schema.org/
+  - http://vocab.org/bio/
+  - http://vocab.org/relationship/
+  - http://vocab.org/frbr/core
+  - http://vocab.org/frbr/extended
+  - 
