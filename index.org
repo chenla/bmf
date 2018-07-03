@@ -30,3 +30,25 @@
 
 
  - [[./bmf-frbr-and-marc.org][FRBR & MARC]]
+
+
+#+begin_src emacs-lisp
+
+'("ts:subject" "ts:predicate" "ts: object" 
+  ((bmf:id     . "uuid" )  ;; uuid+ver (microseconds) 
+   (bmf:owner  . "value")  ;; valid identity, label, or url 
+   (bmf:group  . "group")  ;; groups who have access
+   (bmf:stamp  . "stamp")  ;; time-place stamp
+   (bmf:agent  . "agent")  ;; entity that created quad
+   (bmf:action . "action") ;; action used to create quad
+   (bmf:src    . "source") ;; where triple originated
+   (bmf:access . "OOGGWW") ;; nix style permissions
+   (bmf:prob   . "xxx")    ;; probablistic-weight
+   (bmf:conf   . "xxx")    ;; confidence-weight
+   ))
+#+end_src
+
+Weights:
+
+ -  confidence-weight
+ -  probablistic-weight 
