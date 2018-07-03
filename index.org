@@ -79,11 +79,43 @@ Hospital] at 9:22 in the evening.
 
 Always try to place the markup on the object.
 
+---
+
+What if we put the metadata at the end of the document,
+together with the notes and bibliography?  
+
+  - notes
+  - citations
+  - statements
+  - links -- rich hypertext links?
+
+in org we can then do using subheadings with property boxes
+
+***  key                                                        :statement:
+:PROPERTIES:
+:ID:   a7ac9a99-8aa4-4eb2-9108-a192b4441400
+:sub:  per:PraiYut_Jaksan 
+:pred: rel:born
+:obj:  bmf:dt="2044-2-20:21:22+7" geo:Bangkok_Phuket_Hospital
+:src:  self
+:cite: citē:yut:2044birth-cert
+:conf: high
+:END:
+
+#+begin_quote
+[[per:][Prai Yut]] was [[rel:born][born]] on [[bmf:dt][20 feb 2044]] in [[geo:][Bangkok-Phuket Hospital]]
+at 9:22 in the evening.
+#+end_quote
+
+
+
 ** Ontologies
 
+  - dublin core
+  - TEI
   - https://schema.org/
   - http://vocab.org/bio/
   - http://vocab.org/relationship/
   - http://vocab.org/frbr/core
   - http://vocab.org/frbr/extended
-  - 
+
