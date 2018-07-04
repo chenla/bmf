@@ -104,6 +104,9 @@ together with the notes and bibliography?
 
 in org we can then do using subheadings with property boxes
 
+When we create 
+
+
 #+begin_example
 **   key                                                              :stmt:
 :PROPERTIES:
@@ -122,7 +125,54 @@ at 9:22 in the evening.
 #+end_quote
 #+end_example
 
-What should the index look like for the example above?
+This should result in the following two quads:
+
+#+begin_src emacs-lisp
+("per:PraiYut_Jaksan" "rel:born" "dt:2044-2-20:21:22+7"
+  ((bmf:id     "802f09ec-03ce-4792-b397-8bb58104f9f5")
+   (bmf:owner  "per:deerpig")
+   (bmf:stamp  "created:2018-07-04T10:29:56+07:00"
+   {bmf:src    "file:projects.org::**heading")
+   (bmf:ref    "yut:2044birth-cert")
+   (bmf:hunch  "true high")
+   (bmf:access "+w+w+r")
+   (bmf:agent  "per:deerpig")
+   (bmf:acton  "create")))
+("per:PraiYut_Jaksan" "rel:born" "geo:Bangkok_Phuket_Hospital"
+  ((bmf:id     "91363162-113a-42e3-a322-16a09ae47e3c")
+   (bmf:stamp  "created:2018-07-04T10:29:56+07:00")
+   (bmf:owner  "per:deerpig")
+   {bmf:src    "file:projects.org::**heading")
+   (bmf:ref    "yut:2044birth-cert")
+   (bmf:hunch  "true high")
+   (bmf:access "+w+w+r")
+   (bmf:agent  "per:deerpig")
+   (bmf:acton  "create")))
+#+end_src
+
+These would be parsed, processed, certainties and
+probabilities calculated and woven into to the horcruxes'
+graph db.  They will then propagate and be added to all
+other horcruxes in the hoard.
+
+I don't know how important it will be for horcruxes to
+maintain identical mirror databases. Each horcrux will find
+add it's own quad to it's own quadstore, propagate and
+integrate locally.  So at any one time, the different dbs
+will have a slightly different model, depending on the
+context of what they are doing and how up to date they are
+relative to the other horcruxes.  I think in the end this
+will be a feature not a bug.  It won't result in different
+facts being given by different horcruxes as much as slightly
+different contexts depending on what each horcrux is doing.
+
+Remember as well that all horcruxes will maintain a
+blockchain that will establish concensus on which quad from
+which horcrux becomes the canonical id and source for a
+quad.
+
+
+
 
 ** Ontologies
 
