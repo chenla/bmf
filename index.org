@@ -27,8 +27,6 @@
  - [[./bmf-header.org][Header]]
  - [[./bmf-geo.org][Geographic Encoding]]
  - [[./bmf-notes.org][Notes]]
-
-
  - [[./bmf-frbr-and-marc.org][FRBR & MARC]]
 
 
@@ -131,21 +129,21 @@ This should result in the following two quads:
 ("per:PraiYut_Jaksan" "rel:born" "dt:2044-2-20:21:22+7"
   ((bmf:id     "802f09ec-03ce-4792-b397-8bb58104f9f5")
    (bmf:owner  "per:deerpig")
-   (bmf:stamp  "created:2018-07-04T10:29:56+07:00"
+   (bmf:stamp  "created:2018-07-04T10:29:56+07:00")
    {bmf:src    "file:projects.org::**heading")
    (bmf:ref    "yut:2044birth-cert")
    (bmf:hunch  "true high")
-   (bmf:access "+w+w+r")
+   (bmf:access "w+w+r+")
    (bmf:agent  "per:deerpig")
    (bmf:acton  "create")))
 ("per:PraiYut_Jaksan" "rel:born" "geo:Bangkok_Phuket_Hospital"
   ((bmf:id     "91363162-113a-42e3-a322-16a09ae47e3c")
    (bmf:stamp  "created:2018-07-04T10:29:56+07:00")
    (bmf:owner  "per:deerpig")
-   {bmf:src    "file:projects.org::**heading")
-   (bmf:ref    "yut:2044birth-cert")
+   {bmf:src    "file:projects.org::**heading") ;; or id#
+   (bmf:ref    "yut:2044birth-cert") ;; key to local record
    (bmf:hunch  "true high")
-   (bmf:access "+w+w+r")
+   (bmf:access "w+w+r+")
    (bmf:agent  "per:deerpig")
    (bmf:acton  "create")))
 #+end_src
