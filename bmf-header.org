@@ -113,7 +113,24 @@ gmail account you are logged into and then your system prompts you to
 use associated accounts on github, facebook, twitter etc that are
 associated with that gmail persona.  That's the easy part.
 
-We then need a more subtle system that looks at 
+[2018-07-06 Fri 11:43] But we also can define roles relative
+to the relationship we have with someone.  So if Alice is
+dating Bob then when Alice and Bob do anything together it
+is in the role of boyfriend/girlfriend.
+
+This works but only to a point -- we might play different
+roles with the same people -- so if Alice is the Boss and
+Bob is working unneath Alice but at the same time, Alice is
+dating Bob, there will be times when Bob is boyfriend when
+talking to Alice, and others when Bob is staff when talking
+to Alice.  In cases like this, there should be clear
+partitioning of information in both roles -- so there should
+be two email addresses etc.  So combine Alice's role as Bos
+with a work email address and when she sends email to Bob it
+is as Boss.
+
+In this way we can create compound triggers for the hoard to
+know what role one is in at any given time.
 
 
 
