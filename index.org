@@ -182,3 +182,53 @@ quad.
   - http://vocab.org/frbr/core
   - http://vocab.org/frbr/extended
 
+** Fnords
+
+I originally wanted to use STMT to mean any statement or
+assertion.  We could also use the term 'fact' but that
+implies that it is a truth statement.  We certainly don't
+want to have binary terms such as fact and lie because in a
+none trivial number of cases context determines if something
+is true or not.  The Capital of Laos is Vientiene is true
+today, but The Capital of Laos is Luang Prabang was also
+true in the past.
+
+But we need something more general purpose.  So let's dust
+off fnord.
+
+A fnord is an assertion where all possible values for that
+assertion are valid.  Not all values; only causally possible
+values.
+
+When fnord is observed, the assertion is seen within a
+specific context of references to other assertions.  When
+this happens the possibility wave collapses to a
+single value or a narrow range of possible values and we can
+say that within this concept something it true or false and
+have a value that represents the magnitude of certainty that
+it is true or false.
+
+There are other types of fnords which are types of queries
+where the value of a quad is not known.  This is where AI
+comes in, and makes a best guess as to what the answer might
+be.  This is both for guessing what will happen in the
+future, or for filling in blanks in existing local knowledge
+to guess what something might be that you can only
+indirectly infer or deduce.
+
+This is a core function of BMF-Saltmine as an externalized
+local model of the world from a specific context.
+
+People, Groups and AIs will all use this system to
+externalize their own "black box" cognitive processes.  In
+this way, the hoard's map becomes a means to understand what
+and how anyone understands how they see the world and how
+they came to those conclusions.  So this is a tool for
+off-loading cognitive processing of memories, but also a way
+to communicate to others and provide an interopporibility
+layer between two different hoards.
+
+Since hoards are shattered into multiple horcruxes
+(shatterlings) this is also the mechanism that is used to
+merge Δs when horcuxes syncronize.
+
