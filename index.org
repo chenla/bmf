@@ -106,7 +106,7 @@ When we create
 
 
 #+begin_example
-**   key                                                              :stmt:
+**   key                                                              :fnord:
 :PROPERTIES:
 :ID:    a7ac9a99-8aa4-4eb2-9108-a192b4441400
 :sub:   per:PraiYut_Jaksan 
@@ -126,7 +126,7 @@ at 9:22 in the evening.
 This should result in the following two quads:
 
 #+begin_src emacs-lisp
-("per:PraiYut_Jaksan" "rel:born" "dt:2044-2-20:21:22+7"
+("per:PraiYut_Jaksan" "rel:born" "dt:2044-2-20T21:22+7:00"
   ((bmf:id     "802f09ec-03ce-4792-b397-8bb58104f9f5")
    (bmf:owner  "per:deerpig")
    (bmf:stamp  "created:2018-07-04T10:29:56+07:00")
@@ -136,7 +136,7 @@ This should result in the following two quads:
    (bmf:access "w+w+r+")
    (bmf:agent  "per:deerpig")
    (bmf:acton  "create")))
-("per:PraiYut_Jaksan" "rel:born" "geo:Bangkok_Phuket_Hospital"
+("per:PraiYut_Jaksan" "rel:born" "geo:Bangkok_Phuket_Hospital")
   ((bmf:id     "91363162-113a-42e3-a322-16a09ae47e3c")
    (bmf:stamp  "created:2018-07-04T10:29:56+07:00")
    (bmf:owner  "per:deerpig")
