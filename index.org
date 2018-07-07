@@ -8,6 +8,8 @@
 [[https://img.shields.io/badge/status-wip-D55E00.svg?style=flat-square]]
 [[https://img.shields.io/badge/licence-MIT%2FCC%20BY--SA%204.0-000000.svg?style=flat-square]]
 
+bibliography:~/proj/chenla/hoard/bib.bib
+
 * Table of Contents
 :PROPERTIES:
 :CUSTOM_ID: 
@@ -232,3 +234,70 @@ Since hoards are shattered into multiple horcruxes
 (shatterlings) this is also the mechanism that is used to
 merge Δs when horcuxes syncronize.
 
+---
+
+Another aspect of fnords is the "fallacy of obviousness"
+which derived from the famous experiment where people were
+asked to watch a video and count how many times a basketball
+was passed between two people.  In the middle of the video a
+person wearing a Gorilla suit strolls into the shot, beats
+his chest and walks off.  70% of the people who watch the
+video don't see the Gorilla.  Many saw this as a failing in
+human cognition -- that we miss the obvious; what is
+literally in front of you pounding its chest.
+
+ SEE: cite:felin:2018fallacy,simons:1999gorillas,simons:1999gorilla
+
+But as Teppo Felin suggests, it is not a bug, but a
+feature.cite:felin:2018fallacy Many times, there are too
+many things going on at once in your visual field, so we
+have te ability to filter out everything except what we are
+looking for.  Misdirection; the muse of magicians and
+pickpockets blinds us to what they don't want us to see.
+
+This ability to focus, to filter out everything except what
+we are looking for how we know anything about the world --
+how we can pick out patterns in from the riot of sensory
+data that we are assaulted with.  The trick is not to only
+focus on one thing, but to keep switching focus to include
+as many things as possible.
+
+#+begin_quote
+This... these... the art historians and the critics talking
+about every object and... everything having its own form and
+density and... its own character in Flemish paintings, but is that
+all there is to it? Do you know why everything does? Because they
+found God everywhere. There was nothing God did not watch over,
+nothing, and so this... and so in the painting every detail
+reflects... God’s concern with the most insignificant objects in
+life, with everything, because God did not relax for an instant then,
+and neither could the painter then. Do you get the perspective in
+this? he demanded, thrusting the rumpled reproduction before
+them. — There isn’t any. There isn’t any single perspective, like the
+camera eye, the one we all look through now and call it realism, there
+... I take five or six or ten... the Flemish painter took twenty
+perspectives if he wished, and even in a small painting you can’t
+include it all in your single vision, your one miserable pair of eyes,
+like you can a photograph, like you can painting when it... when it
+degenerates, and becomes conscious of being looked at.
+
+— William Gaddis, The Recognitions 
+  cite:gaddis:2012recognitions
+#+end_quote
+
+
+
+
+** References
+
+- Felin, T., /The fallacy of obviousness/ (2018).
+  cite:felin:2018fallacy 
+- Simons, D. J., & Chabris, C. F., Gorillas in our midst:
+  sustained inattentional blindness for dynamic events,
+  Perception, 28(9), 1059–1074 (1999).
+  http://dx.doi.org/10.1068/p281059
+  cite:simons:1999gorillas
+- Simons, D., & Chabris, C., /Selective attention test
+  (video)/ (1999).
+  cite:simons:1999gorilla
+  
