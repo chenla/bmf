@@ -285,7 +285,39 @@ degenerates, and becomes conscious of being looked at.
   cite:gaddis:2012recognitions
 #+end_quote
 
+#+begin_quote
+In 1966, the philosopher Karl Popper conducted an informal
+experiment to make this point. During a lecture at the
+University of Oxford, he turned to his audience and said:
+‘My experiment consists of asking you to observe, here and
+now. I hope you are all cooperating and observing! However,
+I feel that at least some of you, instead of observing, will
+feel a strong urge to ask: “What do you want me to
+observe?”’ Then Popper delivered his insight about
+observation: ‘For what I am trying to illustrate is that, in
+order to observe, we must have in mind a definite question,
+which we might be able to decide by observation.’
 
+— cite:felin:2018fallacy
+#+end_quote
+
+
+  All observation must be for or against a point of view
+   — Charles Darwin (1861)
+  
+  lay in the fact of there being too much evidence. What was
+  vital was overlaid and hidden by what was irrelevant.
+  — Sherlock Holmes
+
+This is why the concept of the fnord is valuable -- not
+because everything is relative or subjective, which is
+patently not true -- but because truth is relative to the
+context that surrounds it.  Sometimes that context is to
+enormous that it appears that there is no context, but it is
+still there, like the Gorilla, but in such cases, too big to
+see, and sometimes too big to comprehend.
+
+The goal 
 
 
 ** References
