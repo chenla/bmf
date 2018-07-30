@@ -171,7 +171,19 @@ blockchain that will establish concensus on which quad from
 which horcrux becomes the canonical id and source for a
 quad.
 
+** Everything is a Quad
 
+The idea is that the context of a quad should be the same as
+anything else.  Every document should  have the same
+context.  This makes it seamless to scale from a triple+quad
+to a to anything else.
+
+But what we still need is a way to zoom up or in an LOD -- I
+suppose that means that context must include a entity and
+the entity group that it belongs to.  This establishes LOD
+within a hierarchy.  In a sense this is how we define
+holarchies, as each level in an entity stack is a holon,
+which are nested in or out of the level that they belong to.
 
 
 ** Ontologies
